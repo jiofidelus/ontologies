@@ -13,10 +13,6 @@
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-
-    <Import>http://purl.obolibrary.org/obo/epo/2013-06-21/epo.owl</Import>
-    <Import>http://purl.obolibrary.org/obo/symp/releases/2013-06-03/symp.owl</Import>
-    <Import>http://purl.org/cpr/</Import>
     <Declaration>
         <ObjectProperty IRI="#CDTDepart"/>
     </Declaration>
@@ -99,6 +95,9 @@
         <DataProperty IRI="#personnel_nom"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#traitement"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#UserUserAction"/>
     </Declaration>
     <Declaration>
@@ -151,6 +150,9 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#sortieLot_quantite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#structureSanitaire"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Default_user"/>
@@ -372,6 +374,9 @@
         <ObjectProperty IRI="#Patient"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#examenLabo"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#ravitaillement_dateDepart"/>
     </Declaration>
     <Declaration>
@@ -418,6 +423,9 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#patient_age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sensibilisation"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#departPersonnel_dateDepart"/>
@@ -531,6 +539,9 @@
         <ObjectProperty IRI="#examenSerologie_patient"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#gestionMedicament"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#transfertReference_nature"/>
     </Declaration>
     <Declaration>
@@ -550,6 +561,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#RendezVous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#medicament"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#delete"/>
@@ -714,6 +728,9 @@
         <DataProperty IRI="#examenATB_resultat"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#gestionPatient"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#centreDiagTrait__Ravitaillement_cDTDepart"/>
     </Declaration>
     <Declaration>
@@ -814,6 +831,9 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#lot_numero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#localisation"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#lieuDit_nom"/>
@@ -933,6 +953,12 @@
         <Class IRI="#DetailCommandeIntrant_bck"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#formation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gestionPersonnel"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#lot_cDT"/>
     </Declaration>
     <Declaration>
@@ -1002,12 +1028,32 @@
         <ObjectProperty IRI="#Medicament"/>
     </Declaration>
     <SubClassOf>
+        <Class IRI="#ArriveePersonnel"/>
+        <Class IRI="#gestionPersonnel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArriveePersonnel_bck"/>
+        <Class IRI="#gestionPersonnel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CandidatureFormation"/>
+        <Class IRI="#formation"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#CandidatureFormation_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#formation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CasIndex"/>
+        <Class IRI="#gestionPatient"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CasIndex_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#gestionPatient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CasTuberculose"/>
+        <Class IRI="#gestionPatient"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CasTuberculose"/>
@@ -1025,7 +1071,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CasTuberculose_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#gestionPatient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CentreDiagTrait"/>
+        <Class IRI="#structureSanitaire"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CentreDiagTrait"/>
@@ -1106,6 +1156,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Commande"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Commande"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#commande__DetailReceptionIntrant_commande"/>
             <Class IRI="#DetailReceptionIntrant"/>
@@ -1126,11 +1180,35 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Commande_bck"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepartPersonnel"/>
+        <Class IRI="#gestionPersonnel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepartPersonnel_bck"/>
+        <Class IRI="#gestionPersonnel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetailCommandeIntrant"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DetailCommandeIntrant"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#detailCommandeIntrant__DetailReceptionIntrant_detailCommande"/>
             <Class IRI="#DetailReceptionIntrant"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetailCommandeIntrant_bck"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetailCommandeMedicament"/>
+        <Class IRI="#gestionMedicament"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DetailCommandeMedicament"/>
@@ -1141,23 +1219,43 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DetailCommandeMedicament_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetailInventaire"/>
+        <Class IRI="#gestionMedicament"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DetailInventaire_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetailRavitaillement"/>
+        <Class IRI="#gestionMedicament"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DetailRavitaillement_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetailReceptionIntrant"/>
+        <Class IRI="#gestionMedicament"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DetailReceptionIntrant_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetailReceptionMedicament"/>
+        <Class IRI="#gestionMedicament"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DetailReceptionMedicament_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistrictSante"/>
+        <Class IRI="#structureSanitaire"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DistrictSante"/>
@@ -1189,7 +1287,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DistrictSante_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#structureSanitaire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EntreeLot"/>
+        <Class IRI="#gestionMedicament"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EntreeLot"/>
@@ -1200,31 +1302,59 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EntreeLot_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExamenATB"/>
+        <Class IRI="#examenLabo"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ExamenATB_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#examenLabo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExamenBiologique"/>
+        <Class IRI="#examenLabo"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ExamenBiologique_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#examenLabo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExamenMicroscopie"/>
+        <Class IRI="#examenLabo"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ExamenMicroscopie_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#examenLabo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExamenSerologie"/>
+        <Class IRI="#examenLabo"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ExamenSerologie_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#examenLabo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Formation"/>
+        <Class IRI="#formation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Formation_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#formation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HorsUsage"/>
+        <Class IRI="#medicament"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HorsUsage_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#medicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intrant"/>
+        <Class IRI="#medicament"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Intrant"/>
@@ -1242,19 +1372,35 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Intrant_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#medicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inventaire"/>
+        <Class IRI="#gestionMedicament"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Inventaire_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LaboratoireReference"/>
+        <Class IRI="#structureSanitaire"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LaboratoireReference_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#structureSanitaire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LieuDit"/>
+        <Class IRI="#localisation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LieuDit_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#localisation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lot"/>
+        <Class IRI="#medicament"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Lot"/>
@@ -1279,7 +1425,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Lot_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#medicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medicament"/>
+        <Class IRI="#medicament"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Medicament"/>
@@ -1304,11 +1454,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Medicament_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#medicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutBox"/>
+        <Class IRI="#sensibilisation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OutBox_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#sensibilisation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <Class IRI="#gestionPatient"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Patient"/>
@@ -1354,7 +1512,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Patient_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#gestionPatient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personnel"/>
+        <Class IRI="#gestionPersonnel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Personnel"/>
@@ -1379,19 +1541,35 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Personnel_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#gestionPersonnel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PriseMedicamentRegime"/>
+        <Class IRI="#traitement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PriseMedicamentRegime_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#traitement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PriseMedicamenteuse"/>
+        <Class IRI="#traitement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PriseMedicamenteuse_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#traitement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Qualification"/>
+        <Class IRI="#gestionPersonnel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Qualification_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#gestionPersonnel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ravitaillement"/>
+        <Class IRI="#gestionMedicament"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Ravitaillement"/>
@@ -1402,15 +1580,27 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Ravitaillement_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reception"/>
+        <Class IRI="#gestionMedicament"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Reception_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regime"/>
+        <Class IRI="#traitement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Regime_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#traitement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Region"/>
+        <Class IRI="#structureSanitaire"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Region"/>
@@ -1442,15 +1632,27 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Region_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#structureSanitaire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RendezVous"/>
+        <Class IRI="#traitement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RendezVous_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#traitement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SmsPredefini"/>
+        <Class IRI="#sensibilisation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SmsPredefini_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#sensibilisation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SortieLot"/>
+        <Class IRI="#gestionMedicament"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SortieLot"/>
@@ -1468,19 +1670,31 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SortieLot_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransfertReference"/>
+        <Class IRI="#traitement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TransfertReference_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#traitement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tutoriel"/>
+        <Class IRI="#formation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Tutoriel_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#formation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Utilisateur"/>
+        <Class IRI="#gestionPersonnel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Utilisateur_bck"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#gestionPersonnel"/>
     </SubClassOf>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#CDT"/>
@@ -2991,4 +3205,5 @@
 
 
 <!-- Generated by the OWL API (version 4.2.1.20160306-0033) https://github.com/owlcs/owlapi -->
+
 
