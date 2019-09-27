@@ -1,0 +1,1905 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://presence-ontology.org/ontology/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://presence-ontology.org/ontology/"
+     versionIRI="http://presence-ontology.org/ontology/1.0.0">
+    <Prefix name="" IRI="http://presence-ontology.org/ontology/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Presence Ontology v1.0.0</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is the first version of the Presence Ontology. Presence Ontology aims to capture the psychosocial aspects of healthcare and disease prevention. 
+
+We will make changes henceforth in the reorganization of the class/property hierarchies and incorporating other concepts.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="Physician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ParaVerbalCommunicationFactor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Sibling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Spouse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Anger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="RoomNoise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="HealthcareSystemFactor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Hypertension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Outcome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Surprise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Sister"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="affectedBy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="SocialWorker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ProviderSatisfaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ParentPresence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GreatGrandParent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="RoomAtmosphericFactor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Girlfriend"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Psychotherapist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Separated"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="RoomTemperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PastMedicalHistory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Medicaid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Boyfriend"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Empathy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="startTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fiance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Stress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="NonFramilyPresence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TreatmentCompliance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="OtherAffiliation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Disgust"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Atheist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PatientOutcome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Guardian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MedicalTechnician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BrainCancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TreatmentOutcome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="SocialHistory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CareGivingModel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CommunicationFactor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="RelationalQuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Partner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Hindu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Muslim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="HealthcareSystemOutcome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Emotion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="InPatient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="EmotionalTalk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="InsuranceType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GreatGrandFather"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Wife"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PoliceOfficePresence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="WaitTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Lawyer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CognitiveModel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Framily"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="LegalGuardian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GuardianPresence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Asian"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasCommunicationFactor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Characteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Christian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Curiosity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="FacialExpression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="RelationshipCenteredCare"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="producedBy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="OutPatient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PhysicianPresence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Grief"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Jealousy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Daughter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Familiarity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PhysicianAssistant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="influencedBy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Private"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="NonVerbalCommunicationFactor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Nationality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Warmth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Divorced"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PatientProviderRelationshipFactor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ExternalAtmosphericFactor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GrandMother"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PatientCenteredCare"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TreatmentSatisfaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Female"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Ethnicity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="LowSES"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="HealthcareRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Disappointment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="involvesQualityOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="totalTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="EducationStatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="RoomPressure"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PoliceOfficer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="FramilyPresence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="SocialTalk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ProviderBurnout"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ChronicDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="SocioEconomicStatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Tone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="EnvironmentFactor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="influences"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Enunciation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ExternalWeather"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="VerbalCommunicationFactor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="EmotionCenteredCare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="White"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MaritalStatus"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasFactorByType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="FamilyMember"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Understanding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Gender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GrandParent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="IllnessModel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Content"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="SpousePresence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Buddhist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="FamilyHistory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="NonFramilyMember"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Husband"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Confidence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="OtherPresence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Latino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="FamilyPresence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Guilt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Jew"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="OccupationalRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Indifference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PositiveTalk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PartnerPresence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Speed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="composedOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PacificIslander"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Male"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PatientSatisfaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="OccupationalPresence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BodyPosture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MiddleSES"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="isUsedBy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Uninsured"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="interruptedBy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="EmploymentStatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Widowed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Father"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Race"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BreastCancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Silence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="HealthcareCost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Humility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="QualityOfLife"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Congruence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Joy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="involvesCharacteristicOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasFactor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MotivationalInterviewing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Pause"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="endTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="InterpreterPresence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Volume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Diabetes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="involvesUseOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="NegativeTalk"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasEnvironmentFactor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TypeOfTalk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Brother"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ReligiousAffiliation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GrandFather"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Neighbor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ExternalTemperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Son"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GeneralRole"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="isContainedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasFactorByFactorRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="RoomFactor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ProviderOutcome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Black"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="NativeAmerican"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Child"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GrandParentPresence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="HighSES"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasParticipant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="FriendPresence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Provider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="LiteracyLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Psychologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="NeighborPresence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="DiseaseOutcome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="LanguagePreference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Factor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="LawyerPresence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Concern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="NursePresence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PressGaneyScore"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="subinteractionAttributes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Married"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="SharedDecisionMaking"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="uses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Annoyance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Sadness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Mother"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="HeartFailure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Single"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="involves"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Compassion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Adult"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="produceQuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="RoomCO2Level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Parent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Hope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="KidneyDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Wellbeing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Trust"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ChildPresence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GreatGrandMother"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="HealthcarePresence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PatientHistoryFactor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="involvesEmotionOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Nurse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="SocialFactor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Interpreter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ContinuityOfCare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Touch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="EyeContact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Friend"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="Adult"/>
+        <Class IRI="Age"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Age"/>
+        <Class IRI="Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Anger"/>
+        <Class IRI="Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Annoyance"/>
+        <Class IRI="Anger"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Asian"/>
+        <Class IRI="Race"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Atheist"/>
+        <Class IRI="ReligiousAffiliation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Black"/>
+        <Class IRI="Race"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BodyPosture"/>
+        <Class IRI="NonVerbalCommunicationFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Boyfriend"/>
+        <Class IRI="Partner"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BrainCancer"/>
+        <Class IRI="Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BreastCancer"/>
+        <Class IRI="Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Brother"/>
+        <Class IRI="Sibling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Buddhist"/>
+        <Class IRI="ReligiousAffiliation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cancer"/>
+        <Class IRI="PastMedicalHistory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CareGivingModel"/>
+        <Class IRI="CognitiveModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Child"/>
+        <Class IRI="Age"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Child"/>
+        <Class IRI="FamilyMember"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ChildPresence"/>
+        <Class IRI="FamilyPresence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Christian"/>
+        <Class IRI="ReligiousAffiliation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ChronicDisease"/>
+        <Class IRI="PastMedicalHistory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CognitiveModel"/>
+        <Class IRI="Factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CommunicationFactor"/>
+        <Class IRI="Factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Compassion"/>
+        <Class IRI="RelationalQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Concern"/>
+        <Class IRI="Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Confidence"/>
+        <Class IRI="RelationalQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Congruence"/>
+        <Class IRI="PatientProviderRelationshipFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Content"/>
+        <Class IRI="VerbalCommunicationFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ContinuityOfCare"/>
+        <Class IRI="PatientProviderRelationshipFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Curiosity"/>
+        <Class IRI="Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Daughter"/>
+        <Class IRI="Child"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Diabetes"/>
+        <Class IRI="ChronicDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Disappointment"/>
+        <Class IRI="Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="DiseaseOutcome"/>
+        <Class IRI="TreatmentOutcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Disgust"/>
+        <Class IRI="Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Divorced"/>
+        <Class IRI="MaritalStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="EducationStatus"/>
+        <Class IRI="Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="EmotionCenteredCare"/>
+        <Class IRI="CareGivingModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="EmotionalTalk"/>
+        <Class IRI="TypeOfTalk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Empathy"/>
+        <Class IRI="RelationalQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="EmploymentStatus"/>
+        <Class IRI="Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Enunciation"/>
+        <Class IRI="ParaVerbalCommunicationFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="EnvironmentFactor"/>
+        <Class IRI="Factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Ethnicity"/>
+        <Class IRI="Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ExternalAtmosphericFactor"/>
+        <Class IRI="RoomFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ExternalTemperature"/>
+        <Class IRI="ExternalAtmosphericFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ExternalWeather"/>
+        <Class IRI="ExternalAtmosphericFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="EyeContact"/>
+        <Class IRI="NonVerbalCommunicationFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="FacialExpression"/>
+        <Class IRI="NonVerbalCommunicationFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Familiarity"/>
+        <Class IRI="RelationalQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="FamilyHistory"/>
+        <Class IRI="PatientHistoryFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="FamilyHistory"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="influencedBy"/>
+            <Class IRI="FamilyMember"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="FamilyMember"/>
+        <Class IRI="Framily"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="FamilyPresence"/>
+        <Class IRI="FramilyPresence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Father"/>
+        <Class IRI="Parent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fear"/>
+        <Class IRI="Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Female"/>
+        <Class IRI="Gender"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fiance"/>
+        <Class IRI="Partner"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Framily"/>
+        <Class IRI="GeneralRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="FramilyPresence"/>
+        <Class IRI="SocialFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Friend"/>
+        <Class IRI="Framily"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="FriendPresence"/>
+        <Class IRI="FramilyPresence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="FriendPresence"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="influencedBy"/>
+            <Class IRI="Friend"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Gender"/>
+        <Class IRI="Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GeneralRole"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Girlfriend"/>
+        <Class IRI="Partner"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GrandFather"/>
+        <Class IRI="GrandParent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GrandMother"/>
+        <Class IRI="GrandParent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GrandParent"/>
+        <Class IRI="FamilyMember"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GrandParentPresence"/>
+        <Class IRI="FamilyPresence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GrandParentPresence"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="influencedBy"/>
+            <Class IRI="GrandParent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GreatGrandFather"/>
+        <Class IRI="GreatGrandParent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GreatGrandMother"/>
+        <Class IRI="GreatGrandParent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GreatGrandParent"/>
+        <Class IRI="FamilyMember"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Grief"/>
+        <Class IRI="Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Guardian"/>
+        <Class IRI="GeneralRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GuardianPresence"/>
+        <Class IRI="SocialFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GuardianPresence"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="influencedBy"/>
+            <Class IRI="Guardian"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Guilt"/>
+        <Class IRI="Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="HealthcareCost"/>
+        <Class IRI="HealthcareSystemOutcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="HealthcarePresence"/>
+        <Class IRI="NonFramilyPresence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="HealthcareRole"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="HealthcareSystemFactor"/>
+        <Class IRI="EnvironmentFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="HealthcareSystemOutcome"/>
+        <Class IRI="Outcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="HeartFailure"/>
+        <Class IRI="ChronicDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="HighSES"/>
+        <Class IRI="SocioEconomicStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Hindu"/>
+        <Class IRI="ReligiousAffiliation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Hope"/>
+        <Class IRI="Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Humility"/>
+        <Class IRI="RelationalQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Husband"/>
+        <Class IRI="Spouse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Hypertension"/>
+        <Class IRI="ChronicDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="IllnessModel"/>
+        <Class IRI="CognitiveModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="InPatient"/>
+        <Class IRI="Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Indifference"/>
+        <Class IRI="RelationalQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="InsuranceType"/>
+        <Class IRI="Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Interpreter"/>
+        <Class IRI="OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="InterpreterPresence"/>
+        <Class IRI="OccupationalPresence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="InterpreterPresence"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="influencedBy"/>
+            <Class IRI="Interpreter"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Jealousy"/>
+        <Class IRI="Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Jew"/>
+        <Class IRI="ReligiousAffiliation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Joy"/>
+        <Class IRI="Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="KidneyDisease"/>
+        <Class IRI="ChronicDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="LanguagePreference"/>
+        <Class IRI="Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Latino"/>
+        <Class IRI="Ethnicity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Lawyer"/>
+        <Class IRI="OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="LawyerPresence"/>
+        <Class IRI="OccupationalPresence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="LawyerPresence"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="influencedBy"/>
+            <Class IRI="Lawyer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="LegalGuardian"/>
+        <Class IRI="Guardian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="LiteracyLevel"/>
+        <Class IRI="VerbalCommunicationFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="LowSES"/>
+        <Class IRI="SocioEconomicStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Male"/>
+        <Class IRI="Gender"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="MaritalStatus"/>
+        <Class IRI="Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Married"/>
+        <Class IRI="MaritalStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Medicaid"/>
+        <Class IRI="InsuranceType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="MedicalTechnician"/>
+        <Class IRI="Provider"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="MiddleSES"/>
+        <Class IRI="SocioEconomicStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Mother"/>
+        <Class IRI="Parent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="MotivationalInterviewing"/>
+        <Class IRI="CareGivingModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Muslim"/>
+        <Class IRI="ReligiousAffiliation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Nationality"/>
+        <Class IRI="Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="NativeAmerican"/>
+        <Class IRI="Race"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="NegativeTalk"/>
+        <Class IRI="TypeOfTalk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Neighbor"/>
+        <Class IRI="NonFramilyMember"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="NeighborPresence"/>
+        <Class IRI="NonFramilyPresence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="NeighborPresence"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="influencedBy"/>
+            <Class IRI="Neighbor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="NonFramilyMember"/>
+        <Class IRI="GeneralRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="NonFramilyPresence"/>
+        <Class IRI="SocialFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="NonVerbalCommunicationFactor"/>
+        <Class IRI="CommunicationFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Nurse"/>
+        <Class IRI="Provider"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="NursePresence"/>
+        <Class IRI="HealthcarePresence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="OccupationalPresence"/>
+        <Class IRI="NonFramilyPresence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="OccupationalRole"/>
+        <Class IRI="Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="OtherAffiliation"/>
+        <Class IRI="ReligiousAffiliation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="OtherPresence"/>
+        <Class IRI="FamilyPresence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="OutPatient"/>
+        <Class IRI="Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PacificIslander"/>
+        <Class IRI="Race"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ParaVerbalCommunicationFactor"/>
+        <Class IRI="CommunicationFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Parent"/>
+        <Class IRI="FamilyMember"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ParentPresence"/>
+        <Class IRI="FamilyPresence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ParentPresence"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="influencedBy"/>
+            <Class IRI="Parent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Partner"/>
+        <Class IRI="Framily"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PartnerPresence"/>
+        <Class IRI="FramilyPresence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PastMedicalHistory"/>
+        <Class IRI="PatientHistoryFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Patient"/>
+        <Class IRI="HealthcareRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PatientCenteredCare"/>
+        <Class IRI="CareGivingModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PatientHistoryFactor"/>
+        <Class IRI="Factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PatientOutcome"/>
+        <Class IRI="Outcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PatientProviderRelationshipFactor"/>
+        <Class IRI="Factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PatientSatisfaction"/>
+        <Class IRI="PatientOutcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Pause"/>
+        <Class IRI="ParaVerbalCommunicationFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Physician"/>
+        <Class IRI="Provider"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PhysicianAssistant"/>
+        <Class IRI="Provider"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PhysicianPresence"/>
+        <Class IRI="HealthcarePresence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PhysicianPresence"/>
+        <Class IRI="SocialFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PhysicianPresence"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="influencedBy"/>
+            <Class IRI="Provider"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PoliceOfficePresence"/>
+        <Class IRI="OccupationalPresence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PoliceOfficePresence"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="influencedBy"/>
+            <Class IRI="PoliceOfficer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PoliceOfficer"/>
+        <Class IRI="OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PositiveTalk"/>
+        <Class IRI="TypeOfTalk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PressGaneyScore"/>
+        <Class IRI="PatientSatisfaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Private"/>
+        <Class IRI="InsuranceType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Provider"/>
+        <Class IRI="HealthcareRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ProviderBurnout"/>
+        <Class IRI="ProviderOutcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ProviderOutcome"/>
+        <Class IRI="Outcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ProviderSatisfaction"/>
+        <Class IRI="ProviderOutcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Psychologist"/>
+        <Class IRI="Provider"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Psychotherapist"/>
+        <Class IRI="Provider"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="QualityOfLife"/>
+        <Class IRI="PatientOutcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Race"/>
+        <Class IRI="Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="RelationshipCenteredCare"/>
+        <Class IRI="CareGivingModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ReligiousAffiliation"/>
+        <Class IRI="Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="RoomAtmosphericFactor"/>
+        <Class IRI="RoomFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="RoomCO2Level"/>
+        <Class IRI="RoomAtmosphericFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="RoomFactor"/>
+        <Class IRI="EnvironmentFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="RoomNoise"/>
+        <Class IRI="RoomAtmosphericFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="RoomPressure"/>
+        <Class IRI="RoomAtmosphericFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="RoomTemperature"/>
+        <Class IRI="RoomAtmosphericFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Sadness"/>
+        <Class IRI="Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Separated"/>
+        <Class IRI="MaritalStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="SharedDecisionMaking"/>
+        <Class IRI="CareGivingModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Sibling"/>
+        <Class IRI="FamilyMember"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Silence"/>
+        <Class IRI="ParaVerbalCommunicationFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Single"/>
+        <Class IRI="MaritalStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Sister"/>
+        <Class IRI="Sibling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="SocialFactor"/>
+        <Class IRI="EnvironmentFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="SocialHistory"/>
+        <Class IRI="PatientHistoryFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="SocialHistory"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="influencedBy"/>
+            <Class IRI="Characteristic"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="SocialTalk"/>
+        <Class IRI="TypeOfTalk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="SocialWorker"/>
+        <Class IRI="Provider"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="SocioEconomicStatus"/>
+        <Class IRI="Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Son"/>
+        <Class IRI="Child"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Speed"/>
+        <Class IRI="ParaVerbalCommunicationFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Spouse"/>
+        <Class IRI="FamilyMember"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Spouse"/>
+        <Class IRI="Partner"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="SpousePresence"/>
+        <Class IRI="FamilyPresence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="SpousePresence"/>
+        <Class IRI="PartnerPresence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="SpousePresence"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="influencedBy"/>
+            <Class IRI="Spouse"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Stress"/>
+        <Class IRI="Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Surprise"/>
+        <Class IRI="Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Tone"/>
+        <Class IRI="VerbalCommunicationFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Touch"/>
+        <Class IRI="NonVerbalCommunicationFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TreatmentCompliance"/>
+        <Class IRI="TreatmentOutcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TreatmentOutcome"/>
+        <Class IRI="PatientOutcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TreatmentSatisfaction"/>
+        <Class IRI="PatientSatisfaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TreatmentSatisfaction"/>
+        <Class IRI="TreatmentOutcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Trust"/>
+        <Class IRI="RelationalQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TypeOfTalk"/>
+        <Class IRI="VerbalCommunicationFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Understanding"/>
+        <Class IRI="RelationalQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Uninsured"/>
+        <Class IRI="InsuranceType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="VerbalCommunicationFactor"/>
+        <Class IRI="CommunicationFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Volume"/>
+        <Class IRI="ParaVerbalCommunicationFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="WaitTime"/>
+        <Class IRI="HealthcareSystemFactor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Warmth"/>
+        <Class IRI="RelationalQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Wellbeing"/>
+        <Class IRI="PatientOutcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="White"/>
+        <Class IRI="Race"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Widowed"/>
+        <Class IRI="MaritalStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Wife"/>
+        <Class IRI="Spouse"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="BodyPosture"/>
+        <Class IRI="EyeContact"/>
+        <Class IRI="FacialExpression"/>
+        <Class IRI="Touch"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Boyfriend"/>
+        <Class IRI="Fiance"/>
+        <Class IRI="Girlfriend"/>
+        <Class IRI="Spouse"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Brother"/>
+        <Class IRI="Sister"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="ChildPresence"/>
+        <Class IRI="GrandParentPresence"/>
+        <Class IRI="OtherPresence"/>
+        <Class IRI="ParentPresence"/>
+        <Class IRI="SpousePresence"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Compassion"/>
+        <Class IRI="Confidence"/>
+        <Class IRI="Empathy"/>
+        <Class IRI="Trust"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Content"/>
+        <Class IRI="SocialTalk"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="ExternalTemperature"/>
+        <Class IRI="ExternalWeather"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Father"/>
+        <Class IRI="Mother"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="GrandFather"/>
+        <Class IRI="GrandMother"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="GrandParent"/>
+        <Class IRI="GreatGrandParent"/>
+        <Class IRI="Parent"/>
+        <Class IRI="Sibling"/>
+        <Class IRI="Spouse"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="GreatGrandFather"/>
+        <Class IRI="GreatGrandMother"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="HealthcarePresence"/>
+        <Class IRI="OccupationalPresence"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Husband"/>
+        <Class IRI="Wife"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="InterpreterPresence"/>
+        <Class IRI="LawyerPresence"/>
+        <Class IRI="PoliceOfficePresence"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="MedicalTechnician"/>
+        <Class IRI="Nurse"/>
+        <Class IRI="Physician"/>
+        <Class IRI="PhysicianAssistant"/>
+        <Class IRI="Psychologist"/>
+        <Class IRI="SocialWorker"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="NonVerbalCommunicationFactor"/>
+        <Class IRI="VerbalCommunicationFactor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Pause"/>
+        <Class IRI="Silence"/>
+        <Class IRI="Speed"/>
+        <Class IRI="Tone"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="RoomCO2Level"/>
+        <Class IRI="RoomPressure"/>
+        <Class IRI="RoomTemperature"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="affectedBy"/>
+        <ObjectProperty IRI="hasFactorByFactorRole"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="hasCommunicationFactor"/>
+        <ObjectProperty IRI="hasFactorByType"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="hasEnvironmentFactor"/>
+        <ObjectProperty IRI="hasFactorByType"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="hasFactorByFactorRole"/>
+        <ObjectProperty IRI="hasFactor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="hasFactorByType"/>
+        <ObjectProperty IRI="hasFactor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="involvesCharacteristicOf"/>
+        <ObjectProperty IRI="involves"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="involvesEmotionOf"/>
+        <ObjectProperty IRI="involves"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="involvesQualityOf"/>
+        <ObjectProperty IRI="involves"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="involvesUseOf"/>
+        <ObjectProperty IRI="involves"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="producedBy"/>
+        <ObjectProperty IRI="hasFactorByFactorRole"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="influencedBy"/>
+        <ObjectProperty IRI="influences"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="isUsedBy"/>
+        <ObjectProperty IRI="uses"/>
+    </InverseObjectProperties>
+    <SubDataPropertyOf>
+        <DataProperty IRI="endTime"/>
+        <DataProperty IRI="subinteractionAttributes"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="startTime"/>
+        <DataProperty IRI="subinteractionAttributes"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="totalTime"/>
+        <DataProperty IRI="subinteractionAttributes"/>
+    </SubDataPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Black</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">African American or Black</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>Black</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">African American</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>Black</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">African-American</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>Black</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Black</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>Black</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Negro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:description"/>
+        <IRI>Factor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The Factor hierarchy represents concepts that play an external role in a sub-interaction between the Physician and the Patient. These concepts are modifiable, recordable, observable and may be quantifiable. These concepts include environmetal factors, communication factors, and other social factors. Factors hence differ from Emotions and Qualities (which can not be modifiable, recordable, observable and quantifiable)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>GeneralRole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">General Role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Latino</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Hispanic or Latino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>NativeAmerican</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">American Indian or Alaska Native</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>PacificIslander</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Native Hawaiin or Other Pacific Islander</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>PatientProviderRelationshipFactor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">patient-physician relationship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>PatientProviderRelationshipFactor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">physician-patient relationship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>PatientProviderRelationshipFactor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">provider patient relationship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:description"/>
+        <IRI>Pause</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Number of pauses made by a role (either physician or patient) during an interaction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>Physician</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">GP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>Physician</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">PCP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>Provider</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">clinician</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>Provider</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">health care professional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>Provider</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">healthcare professional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:description"/>
+        <IRI>Silence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Number of minutes that are spent in silence during the interaction/encounter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:description"/>
+        <IRI>SocialFactor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This Factor only symbolizes whether or not a person is present in the encounter or the room.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>White</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Caucasian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:description"/>
+        <IRI>involves</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is an object property that associates few &quot;Physical&quot; and &quot;Abstract&quot; Objects to a sub-interaction between the Physician and a Patient.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:description"/>
+        <IRI>totalTime</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This should include the total time of any sub-interaction in seconds.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.1.20160306-0033) https://github.com/owlcs/owlapi -->
+

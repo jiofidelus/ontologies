@@ -1,0 +1,2711 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.obolibrary.org/obo/bfo.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.obolibrary.org/obo/bfo.owl"
+     versionIRI="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl">
+    <Prefix name="" IRI="http://purl.obolibrary.org/obo/bfo.owl"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="foaf" IRI="http://xmlns.com/foaf/0.1/"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://purl.obolibrary.org/obo/bfo/dev/owl</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mathias Brochhausen</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BFO 2 Reference: BFO does not claim to be a complete coverage of all entities. It seeks only to provide coverage of those entities studied by empirical science together with those entities which affect or are involved in human activities such as data processing and planning – coverage that is sufficiently broad to provide assistance to those engaged in building domain ontologies for purposes of data annotation [17</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ron Rudnicki</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Janna Hastings</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Leonard Jacuzzo</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Randall Dipert</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Barry Smith</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Larry Hunter</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Stefan Schulz</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Werner Ceusters</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="foaf:homepage"/>
+        <IRI>http://ifomis.org/bfo</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://groups.google.com/group/bfo-devel</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.obolibrary.org/obo/bfo/2014-05-03/ReleaseNotes</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Jonathan Bona</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Robert Rovetto</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Albert Goldfain</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Yongqun &quot;Oliver&quot; He</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Bjoern Peters</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Melanie Courtot</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Alan Ruttenberg</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Bill Duncan</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ludger Jansen</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://groups.google.com/group/bfo-owl-devel</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Thomas Bittner</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://groups.google.com/group/bfo-discuss</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Chris Mungall</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:license"/>
+        <IRI>http://creativecommons.org/licenses/by/3.0/</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Jie Zheng</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mauricio Almeida</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mark Ressler</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is an early version of BFO version 2 and has not yet been extensively reviewed by the project team members. Please see the project site http://code.google.com/p/bfo/ , the bfo2 owl discussion group http://groups.google.com/group/bfo-owl-devel , the bfo2 discussion group http://groups.google.com/group/bfo-devel, the tracking google doc http://goo.gl/IlrEE, and the current version of the bfo2 reference http://purl.obolibrary.org/obo/bfo/dev/bfo2-reference.docx . This ontology is generated from a specification at http://bfo.googlecode.com/svn/trunk/src/ontology/owl-group/specification/ and with the code that generates the OWL version in http://bfo.googlecode.com/svn/trunk/src/tools/. A very early version of BFO version 2 in CLIF is at http://purl.obolibrary.org/obo/bfo/dev/bfo.clif</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://bfo.googlecode.com/svn/trunk/src/tools/</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The http://purl.obolibary.org/obo/bfo/classes-only.owl variant of BFO (&quot;bfo_classes_only.owl&quot;) includes only the class hierarchy and annotations from the full OWL version of BFO 2: http://purl.obolibary.org/obo/bfo.owl (&quot;bfo.owl&quot;). There are no object properties or logical axioms that use the object properties in bfo_classes_only.owl. As the logical axioms in the bfo_classes_only.owl variant are limited to subclass and disjoint assertions they are much weaker than the logical axioms in bfo.owl.
+ 
+If you plan to use the relations that define BFO 2, you should import bfo.owl instead of bfo_classes_only.owl. To the extent that the relations are used without importing bfo.owl, be mindful that they should be used in a manner consistent with their use in bfo.owl. Otherwise if your ontology is imported by a another ontology that imports bfo.owl there may be inconsistencies. 
+ 
+See the BFO 2 release notes for further information about BFO 2. Please note that the current release of bfo.owl uses temporal relations when the subject or object is a continuant, a major change from BFO 1.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">David Osumi-Sutherland</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pierre Grenon</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://bfo.googlecode.com/svn/trunk/src/ontology/owl-group/specification/</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">James A. Overton</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="foaf:mbox"/>
+        <IRI>mailto:bfo-owl-devel@googlegroups.com</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fabian Neuhaus</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BFO 2 Reference: BFO’s treatment of continuants and occurrents – as also its treatment of regions, rests on a dichotomy between space and time, and on the view that there are two perspectives on reality – earlier called the ‘SNAP’ and ‘SPAN’ perspectives, both of which are essential to the non-reductionist representation of reality as we understand it from the best available science [30</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.obolibrary.org/obo/bfo/dev/bfo.clif</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="foaf:homepage"/>
+        <IRI>http://code.google.com/p/bfo/</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BFO 2 Reference: For both terms and relational expressions in BFO, we distinguish between primitive and defined. ‘Entity’ is an example of one such primitive term. Primitive terms in a highest-level ontology such as BFO are terms that are so basic to our understanding of reality that there is no way of defining them in a non-circular fashion. For these, therefore, we can provide only elucidations, supplemented by examples and by axioms.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.obolibrary.org/obo/bfo/2012-07-20/Reference</IRI>
+    </Annotation>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000180"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Institution"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HospitalizationRequest"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MobileEmergencyService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gatekeeper"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#works"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#generatesPatientAdmissionReport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Suicide"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#coversHealthNetwork"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#analyzesPatient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FamilyHealthSupportNucleus"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#directsHospital"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="foaf:mbox"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StreetName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Registration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStartTreatmentDate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HouseNumber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Director"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#generatesHospitalizationRequest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HospitalBed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CleaningWorker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Address"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Image"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicalExpertIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProfessionalSpeciality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Receptionist"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performsMeeting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneralServiceProfessional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NationalHealthSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LegalGuardianIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Laboratory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreliminaryReport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Workshop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Warehouse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVitalSigns"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Office"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CityName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ICDClass"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#coversRegionalHealthDepartment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FinalTreatmentDate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#reserves"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParentIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClinicalEvaluation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BFO_0000030"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:member"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaidenName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Overdose"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000602"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasReception"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performsHospitalization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AdministrativeProfessional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostalCode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BloodPressure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContinuationOfTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lobby"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000601"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#generatesMedicalRecord"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performsAttendence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NursingTechnician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clerk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DrugAddiction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performsClinicalEvaluation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hospitalization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UniversityHospital"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#orients"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#generatesPreliminaryReport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicalDischarge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AdministrativeAssistant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecializedHospital"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#analyzesImage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temperature"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000600"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mayDie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interview"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accident"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeathFromUnnaturalCauses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EmailAddress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PharmaceuticalDrug"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BFO_0000029"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Identifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CommunityHealthAgents"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BFO_0000182"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#deliversShiftReportToNurse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tabagism"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#generatesMonitoringReport"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requestsForwarding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#deliversShiftReportToDoctor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HealthProfessional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HospitalizationAuthorization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ambulance"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInformationTechnologySector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TertiaryCareUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecializedService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Breath"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attendence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFinalTreatmentDate"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sendsToManager"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#evaluatesHospitalizationRequest"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performsPatientAdmission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NationalInsuranceNumber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pulse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mayHave"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElectronicMedicalRecord"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mayCause"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneralPractitioner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alcoholism"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#diagnoses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VitalSigns"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicalRecord"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#forwardPatientToUnit"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeathFromNaturalCauses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#fillsEletronicMedicalRecord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hospital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NationalHospital"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#definesTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Death"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActiveSearch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Document"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#changesMedication"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BFO_0000016"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHospitalBed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StartTreatmentDate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Doctor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0010000"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requestsExam"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#forwardPatientToTeam"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAssociatedWith"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SideEffect"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:license"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#meets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrimaryCareUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RegionalHealthDepartment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scheduling"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#fillsCensusForm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProfessionalSpeciality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BasicHealthUnit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#generatesEvolutionReport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meeting"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#evaluatesPatientEvolution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BelongingsRelation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000179"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TelephoneNumber"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWorkshop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NationalIdCardNumber"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#fillsPatientAdmissionReport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SecondaryCareUnit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#transferTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#generatesAttendanceReport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AddressPart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#warnsMedicalDischarge"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contactsSocialWorker"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performsInterview"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#treats"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#accompanies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reception"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mayShow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HospitalizationUnit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#arrivesAt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatientAdmission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Syndrome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InstitutionIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOffice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#makes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requestsActiveSearch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HealthNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HospitalRoom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medication"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#identifies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAmbulance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CensusForm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FamilyHealthTeam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BirthCountryName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneralHospital"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHospitalRoom"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AttendanceReport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicalImage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BirthCityName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nurse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FirstName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Treatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialSecurityNumber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ShiftReport"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#releases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FullName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatientEvolution"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BFO_0000024"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BFO_0000145"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comorbidities"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#prescribes"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PsychosocialCareCenter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatientAdmissionReport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InformationTechnologySector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MonitoringReport"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHospitalizationUnit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#generatesBelongingsRelation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialWorker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Symptom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#deliversShiftReportToNursingTechnician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SecurityOfficer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LastName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLobby"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#communicatesMedicalDischarge"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWarehouse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlaceName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EvolutionReport"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EmergencyServiceUnit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#analyzesExam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HospitalIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FirstService"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="foaf:homepage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComputerTechnician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AmbulanceDriver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CountryName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#receives"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BFO_0000034"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InformationObject"/>
+    </Declaration>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:BFO_0000034"/>
+        <Class abbreviatedIRI="obo:BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Accident"/>
+        <Class IRI="#DeathFromUnnaturalCauses"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Address"/>
+        <Class IRI="#Identifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AddressPart"/>
+        <Class IRI="#Identifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AdministrativeAssistant"/>
+        <Class IRI="#AdministrativeProfessional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alcoholism"/>
+        <Class abbreviatedIRI="obo:BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Allergy"/>
+        <Class abbreviatedIRI="obo:BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ambulance"/>
+        <Class abbreviatedIRI="obo:BFO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AmbulanceDriver"/>
+        <Class IRI="#GeneralServiceProfessional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AttendanceReport"/>
+        <Class IRI="#Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BasicHealthUnit"/>
+        <Class IRI="#PrimaryCareUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BelongingsRelation"/>
+        <Class IRI="#Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BirthCityName"/>
+        <Class IRI="#CityName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BirthCountryName"/>
+        <Class IRI="#CountryName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodPressure"/>
+        <Class IRI="#VitalSigns"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breath"/>
+        <Class IRI="#VitalSigns"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CensusForm"/>
+        <Class IRI="#Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CityName"/>
+        <Class IRI="#PlaceName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CleaningWorker"/>
+        <Class IRI="#GeneralServiceProfessional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clerk"/>
+        <Class IRI="#GeneralServiceProfessional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CommunityHealthAgents"/>
+        <Class IRI="#PrimaryCareUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comorbidities"/>
+        <Class abbreviatedIRI="obo:BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComputerTechnician"/>
+        <Class IRI="#AdministrativeProfessional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContinuationOfTreatment"/>
+        <Class IRI="#Attendence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CountryName"/>
+        <Class IRI="#AddressPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeathFromNaturalCauses"/>
+        <Class IRI="#Death"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeathFromUnnaturalCauses"/>
+        <Class IRI="#Death"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Director"/>
+        <Class IRI="#AdministrativeProfessional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Doctor"/>
+        <Class IRI="#HealthProfessional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Document"/>
+        <Class IRI="#InformationObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DrugAddiction"/>
+        <Class abbreviatedIRI="obo:BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectronicMedicalRecord"/>
+        <Class IRI="#Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EmailAddress"/>
+        <Class IRI="#Identifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EmergencyServiceUnit"/>
+        <Class IRI="#SecondaryCareUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EvolutionReport"/>
+        <Class IRI="#Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exam"/>
+        <Class IRI="#Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FamilyHealthSupportNucleus"/>
+        <Class IRI="#PrimaryCareUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FamilyHealthTeam"/>
+        <Class IRI="#PrimaryCareUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FirstName"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FirstService"/>
+        <Class IRI="#Attendence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FullName"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gatekeeper"/>
+        <Class IRI="#GeneralServiceProfessional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneralHospital"/>
+        <Class IRI="#Hospital"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneralPractitioner"/>
+        <Class IRI="#Doctor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthNetwork"/>
+        <Class abbreviatedIRI="obo:BFO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hospital"/>
+        <Class IRI="#TertiaryCareUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HospitalBed"/>
+        <Class abbreviatedIRI="obo:BFO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HospitalIdentifier"/>
+        <Class IRI="#InstitutionIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HospitalRoom"/>
+        <Class abbreviatedIRI="obo:BFO_0000024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hospitalization"/>
+        <Class abbreviatedIRI="obo:BFO_0000182"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HospitalizationAuthorization"/>
+        <Class IRI="#Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HospitalizationRequest"/>
+        <Class IRI="#Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HospitalizationUnit"/>
+        <Class abbreviatedIRI="obo:BFO_0000024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HouseNumber"/>
+        <Class IRI="#AddressPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ICDClass"/>
+        <Class IRI="#Identifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Identifier"/>
+        <Class IRI="#InformationObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Image"/>
+        <Class IRI="#InformationObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationTechnologySector"/>
+        <Class abbreviatedIRI="obo:BFO_0000024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Institution"/>
+        <Class abbreviatedIRI="obo:BFO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InstitutionIdentifier"/>
+        <Class IRI="#Identifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Laboratory"/>
+        <Class IRI="#Institution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LastName"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalGuardianIdentifier"/>
+        <Class IRI="#Identifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lobby"/>
+        <Class abbreviatedIRI="obo:BFO_0000024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaidenName"/>
+        <Class IRI="#LastName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manager"/>
+        <Class IRI="#AdministrativeProfessional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicalExpertIdentifier"/>
+        <Class IRI="#Identifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicalImage"/>
+        <Class IRI="#Image"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicalRecord"/>
+        <Class IRI="#Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medication"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MobileEmergencyService"/>
+        <Class IRI="#SecondaryCareUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MonitoringReport"/>
+        <Class IRI="#Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Name"/>
+        <Class IRI="#Identifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NationalHealthSystem"/>
+        <Class abbreviatedIRI="obo:BFO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NationalHospital"/>
+        <Class IRI="#Hospital"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NationalIdCardNumber"/>
+        <Class IRI="#Identifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NationalInsuranceNumber"/>
+        <Class IRI="#Identifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nurse"/>
+        <Class IRI="#HealthProfessional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NursingTechnician"/>
+        <Class IRI="#HealthProfessional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Office"/>
+        <Class abbreviatedIRI="obo:BFO_0000024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Overdose"/>
+        <Class abbreviatedIRI="obo:BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParentIdentifier"/>
+        <Class IRI="#LegalGuardianIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PatientAdmissionReport"/>
+        <Class IRI="#Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PatientEvolution"/>
+        <Class abbreviatedIRI="obo:BFO_0000182"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PharmaceuticalDrug"/>
+        <Class abbreviatedIRI="obo:BFO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlaceName"/>
+        <Class IRI="#AddressPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostalCode"/>
+        <Class IRI="#AddressPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreliminaryReport"/>
+        <Class IRI="#Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrimaryCareUnit"/>
+        <Class IRI="#Institution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PsychosocialCareCenter"/>
+        <Class IRI="#SpecializedService"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pulse"/>
+        <Class IRI="#VitalSigns"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reception"/>
+        <Class abbreviatedIRI="obo:BFO_0000024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Receptionist"/>
+        <Class IRI="#AdministrativeProfessional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RegionalHealthDepartment"/>
+        <Class IRI="#Institution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SecondaryCareUnit"/>
+        <Class IRI="#Institution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SecurityOfficer"/>
+        <Class IRI="#GeneralServiceProfessional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShiftReport"/>
+        <Class IRI="#Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SideEffect"/>
+        <Class abbreviatedIRI="obo:BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialSecurityNumber"/>
+        <Class IRI="#Identifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialWorker"/>
+        <Class IRI="#AdministrativeProfessional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecializedHospital"/>
+        <Class IRI="#Hospital"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecializedService"/>
+        <Class IRI="#SecondaryCareUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StreetName"/>
+        <Class IRI="#AddressPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Suicide"/>
+        <Class IRI="#DeathFromUnnaturalCauses"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Symptom"/>
+        <Class abbreviatedIRI="obo:BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Syndrome"/>
+        <Class abbreviatedIRI="obo:BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tabagism"/>
+        <Class abbreviatedIRI="obo:BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TelephoneNumber"/>
+        <Class IRI="#Identifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temperature"/>
+        <Class IRI="#VitalSigns"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TertiaryCareUnit"/>
+        <Class IRI="#Institution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Treatment"/>
+        <Class abbreviatedIRI="obo:BFO_0000182"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UniversityHospital"/>
+        <Class IRI="#Hospital"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Warehouse"/>
+        <Class abbreviatedIRI="obo:BFO_0000024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Workshop"/>
+        <Class abbreviatedIRI="obo:BFO_0000024"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#BasicHealthUnit"/>
+        <Class IRI="#CommunityHealthAgents"/>
+        <Class IRI="#FamilyHealthSupportNucleus"/>
+        <Class IRI="#FamilyHealthTeam"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BloodPressure"/>
+        <Class IRI="#Breath"/>
+        <Class IRI="#Pulse"/>
+        <Class IRI="#Temperature"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ContinuationOfTreatment"/>
+        <Class IRI="#FirstService"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EmergencyServiceUnit"/>
+        <Class IRI="#MobileEmergencyService"/>
+        <Class IRI="#SpecializedService"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FinalTreatmentDate"/>
+        <Class IRI="#StartTreatmentDate"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FirstName"/>
+        <Class IRI="#FullName"/>
+        <Class IRI="#LastName"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Laboratory"/>
+        <Class IRI="#PrimaryCareUnit"/>
+        <Class IRI="#RegionalHealthDepartment"/>
+        <Class IRI="#SecondaryCareUnit"/>
+        <Class IRI="#TertiaryCareUnit"/>
+    </DisjointClasses>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#accompanies"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#analyzesExam"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#analyzesImage"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#analyzesPatient"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#changesMedication"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#communicatesMedicalDischarge"/>
+        <Class IRI="#Manager"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contactsSocialWorker"/>
+        <Class IRI="#AdministrativeAssistant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contactsSocialWorker"/>
+        <Class IRI="#Manager"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#coversHealthNetwork"/>
+        <Class IRI="#NationalHealthSystem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#coversRegionalHealthDepartment"/>
+        <Class IRI="#HealthNetwork"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#definesTreatment"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#deliversShiftReportToDoctor"/>
+        <Class IRI="#Nurse"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#deliversShiftReportToNurse"/>
+        <Class IRI="#NursingTechnician"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#deliversShiftReportToNursingTechnician"/>
+        <Class IRI="#AmbulanceDriver"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#diagnoses"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#directsHospital"/>
+        <Class IRI="#Director"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#evaluatesHospitalizationRequest"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#evaluatesPatientEvolution"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#fillsCensusForm"/>
+        <Class IRI="#NursingTechnician"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#fillsEletronicMedicalRecord"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#fillsPatientAdmissionReport"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#forwardPatientToTeam"/>
+        <Class IRI="#Receptionist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#forwardPatientToUnit"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#generatesAttendanceReport"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#generatesAttendanceReport"/>
+        <Class IRI="#Nurse"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#generatesBelongingsRelation"/>
+        <Class IRI="#NursingTechnician"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#generatesEvolutionReport"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#generatesEvolutionReport"/>
+        <Class IRI="#Nurse"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#generatesHospitalizationRequest"/>
+        <Class IRI="#Manager"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#generatesMedicalRecord"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#generatesPatientAdmissionReport"/>
+        <Class IRI="#AdministrativeAssistant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#generatesPatientAdmissionReport"/>
+        <Class IRI="#Manager"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAmbulance"/>
+        <Class IRI="#PrimaryCareUnit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAmbulance"/>
+        <Class IRI="#SecondaryCareUnit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAmbulance"/>
+        <Class IRI="#TertiaryCareUnit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFinalTreatmentDate"/>
+        <Class IRI="#Treatment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHospitalBed"/>
+        <Class IRI="#Hospital"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHospitalRoom"/>
+        <Class IRI="#Hospital"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHospitalizationUnit"/>
+        <Class IRI="#Hospital"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasInformationTechnologySector"/>
+        <Class IRI="#Hospital"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLobby"/>
+        <Class IRI="#Institution"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOffice"/>
+        <Class IRI="#Institution"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProfessionalSpeciality"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasReception"/>
+        <Class IRI="#Institution"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStartTreatmentDate"/>
+        <Class IRI="#Treatment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWarehouse"/>
+        <Class IRI="#Hospital"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#identifies"/>
+        <Class IRI="#NursingTechnician"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAssociatedWith"/>
+        <Class IRI="#Treatment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#makes"/>
+        <Class IRI="#Receptionist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#mayCause"/>
+        <Class IRI="#PharmaceuticalDrug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#meets"/>
+        <Class IRI="#HealthProfessional"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#orients"/>
+        <Class IRI="#Gatekeeper"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performsAttendence"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performsAttendence"/>
+        <Class IRI="#Nurse"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performsAttendence"/>
+        <Class IRI="#NursingTechnician"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performsAttendence"/>
+        <Class IRI="#Receptionist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performsClinicalEvaluation"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performsHospitalization"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performsInterview"/>
+        <Class IRI="#Nurse"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performsPatientAdmission"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#prescribes"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#receives"/>
+        <Class IRI="#AdministrativeAssistant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#receives"/>
+        <Class IRI="#Manager"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#releases"/>
+        <Class IRI="#Manager"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requestsActiveSearch"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requestsActiveSearch"/>
+        <Class IRI="#Nurse"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requestsExam"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requestsForwarding"/>
+        <Class IRI="#EmergencyServiceUnit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#reserves"/>
+        <Class IRI="#AdministrativeAssistant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#reserves"/>
+        <Class IRI="#Manager"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#sendsToManager"/>
+        <Class IRI="#RegionalHealthDepartment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#treats"/>
+        <Class IRI="#HealthProfessional"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#warnsMedicalDischarge"/>
+        <Class IRI="#Doctor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#accompanies"/>
+        <Class IRI="#PatientEvolution"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#analyzesExam"/>
+        <Class IRI="#Exam"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#analyzesImage"/>
+        <Class IRI="#Image"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#arrivesAt"/>
+        <Class IRI="#BasicHealthUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#arrivesAt"/>
+        <Class IRI="#Hospital"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#arrivesAt"/>
+        <Class IRI="#SpecializedService"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#changesMedication"/>
+        <Class IRI="#PharmaceuticalDrug"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#communicatesMedicalDischarge"/>
+        <Class IRI="#EmergencyServiceUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#communicatesMedicalDischarge"/>
+        <Class IRI="#RegionalHealthDepartment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contactsSocialWorker"/>
+        <Class IRI="#SocialWorker"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#coversHealthNetwork"/>
+        <Class IRI="#HealthNetwork"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#coversRegionalHealthDepartment"/>
+        <Class IRI="#RegionalHealthDepartment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#definesTreatment"/>
+        <Class IRI="#Treatment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#deliversShiftReportToDoctor"/>
+        <Class IRI="#ShiftReport"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#deliversShiftReportToNurse"/>
+        <Class IRI="#ShiftReport"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#deliversShiftReportToNursingTechnician"/>
+        <Class IRI="#ShiftReport"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#directsHospital"/>
+        <Class IRI="#Hospital"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#evaluatesHospitalizationRequest"/>
+        <Class IRI="#HospitalizationRequest"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#evaluatesPatientEvolution"/>
+        <Class IRI="#PatientEvolution"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#fillsCensusForm"/>
+        <Class IRI="#CensusForm"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#fillsEletronicMedicalRecord"/>
+        <Class IRI="#ElectronicMedicalRecord"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#fillsPatientAdmissionReport"/>
+        <Class IRI="#PatientAdmissionReport"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#forwardPatientToUnit"/>
+        <Class IRI="#BasicHealthUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#forwardPatientToUnit"/>
+        <Class IRI="#SecondaryCareUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#generatesAttendanceReport"/>
+        <Class IRI="#AttendanceReport"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#generatesBelongingsRelation"/>
+        <Class IRI="#BelongingsRelation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#generatesEvolutionReport"/>
+        <Class IRI="#EvolutionReport"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#generatesHospitalizationRequest"/>
+        <Class IRI="#HospitalizationRequest"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#generatesMedicalRecord"/>
+        <Class IRI="#MedicalRecord"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#generatesMonitoringReport"/>
+        <Class IRI="#MonitoringReport"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#generatesPatientAdmissionReport"/>
+        <Class IRI="#PatientAdmissionReport"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#generatesPreliminaryReport"/>
+        <Class IRI="#PreliminaryReport"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAmbulance"/>
+        <Class IRI="#Ambulance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFinalTreatmentDate"/>
+        <Class IRI="#FinalTreatmentDate"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHospitalBed"/>
+        <Class IRI="#HospitalBed"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHospitalRoom"/>
+        <Class IRI="#HospitalRoom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHospitalizationUnit"/>
+        <Class IRI="#HospitalizationUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIdentifier"/>
+        <Class IRI="#Identifier"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasInformationTechnologySector"/>
+        <Class IRI="#InformationTechnologySector"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLobby"/>
+        <Class IRI="#Lobby"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOffice"/>
+        <Class IRI="#Office"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProfessionalSpeciality"/>
+        <Class IRI="#ProfessionalSpeciality"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReception"/>
+        <Class IRI="#Reception"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStartTreatmentDate"/>
+        <Class IRI="#StartTreatmentDate"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVitalSigns"/>
+        <Class IRI="#VitalSigns"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWarehouse"/>
+        <Class IRI="#Warehouse"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWorkshop"/>
+        <Class IRI="#Workshop"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#makes"/>
+        <Class IRI="#Registration"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#makes"/>
+        <Class IRI="#Scheduling"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mayCause"/>
+        <Class IRI="#SideEffect"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mayDie"/>
+        <Class IRI="#Death"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mayHave"/>
+        <Class IRI="#Overdose"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mayShow"/>
+        <Class IRI="#Alcoholism"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mayShow"/>
+        <Class IRI="#Allergy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mayShow"/>
+        <Class IRI="#Comorbidities"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mayShow"/>
+        <Class IRI="#DrugAddiction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mayShow"/>
+        <Class IRI="#Symptom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mayShow"/>
+        <Class IRI="#Syndrome"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mayShow"/>
+        <Class IRI="#Tabagism"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#orients"/>
+        <Class IRI="#AmbulanceDriver"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsAttendence"/>
+        <Class IRI="#Attendence"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsClinicalEvaluation"/>
+        <Class IRI="#ClinicalEvaluation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsHospitalization"/>
+        <Class IRI="#Hospitalization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsInterview"/>
+        <Class IRI="#Interview"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsMeeting"/>
+        <Class IRI="#Meeting"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsPatientAdmission"/>
+        <Class IRI="#PatientAdmission"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#prescribes"/>
+        <Class IRI="#PharmaceuticalDrug"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#receives"/>
+        <Class IRI="#HospitalizationAuthorization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#releases"/>
+        <Class IRI="#HospitalBed"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requestsActiveSearch"/>
+        <Class IRI="#ActiveSearch"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requestsExam"/>
+        <Class IRI="#Exam"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requestsForwarding"/>
+        <Class IRI="#Hospital"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#reserves"/>
+        <Class IRI="#HospitalBed"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#sendsToManager"/>
+        <Class IRI="#HospitalizationAuthorization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#warnsMedicalDischarge"/>
+        <Class IRI="#Manager"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#works"/>
+        <Class IRI="#Institution"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>http://example.com/bfo-spec-label</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Person:Alan Ruttenberg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000179"/>
+        <AbbreviatedIRI>obo:BFO_0000016</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">disposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000180"/>
+        <AbbreviatedIRI>obo:BFO_0000016</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Disposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000016</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an atom of element X has the disposition to decay to an atom of element Y</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000016</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">certain people have a predisposition to colon cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000016</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">children are innately disposed to categorize objects in certain ways.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000016</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the cell wall is disposed to filter chemicals in endocytosis and exocytosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:BFO_0000016</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BFO 2 Reference: Dispositions exist along a strength continuum. Weaker forms of disposition are realized in only a fraction of triggering cases. These forms occur in a significant number of cases of a similar type.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0010000"/>
+            <IRI>http://purl.obolibrary.org/obo/bfo/axiom/062-002</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000600"/>
+        <AbbreviatedIRI>obo:BFO_0000016</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">b is a disposition means: b is a realizable entity &amp; b’s bearer is some material entity &amp; b is such that if it ceases to exist, then its bearer is physically changed, &amp; b’s realization occurs when and because this bearer is in some special physical circumstances, &amp; this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0010000"/>
+            <IRI>http://purl.obolibrary.org/obo/bfo/axiom/063-002</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000601"/>
+        <AbbreviatedIRI>obo:BFO_0000016</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">If b is a realizable entity then for all t at which b exists, b s-depends_on some material entity at t. (axiom label in BFO2 Reference: [063-002])</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0010000"/>
+            <IRI>http://purl.obolibrary.org/obo/bfo/axiom/063-002</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000602"/>
+        <AbbreviatedIRI>obo:BFO_0000016</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">(forall (x t) (if (and (RealizableEntity x) (existsAt x t)) (exists (y) (and (MaterialEntity y) (specificallyDepends x y t))))) // axiom label in BFO2 CLIF: [063-002] </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0010000"/>
+            <IRI>http://purl.obolibrary.org/obo/bfo/axiom/062-002</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000602"/>
+        <AbbreviatedIRI>obo:BFO_0000016</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">(forall (x) (if (Disposition x) (and (RealizableEntity x) (exists (y) (and (MaterialEntity y) (bearerOfAt x y t)))))) // axiom label in BFO2 CLIF: [062-002] </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:BFO_0000016</AbbreviatedIRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BFO_0000016</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">disposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000179"/>
+        <AbbreviatedIRI>obo:BFO_0000024</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fiat-object-part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000180"/>
+        <AbbreviatedIRI>obo:BFO_0000024</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FiatObjectPart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000024</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">or with divisions drawn by cognitive subjects for practical reasons, such as the division of a cake (before slicing) into (what will become) slices (and thus member parts of an object aggregate). However, this does not mean that fiat object parts are dependent for their existence on divisions or delineations effected by cognitive subjects. If, for example, it is correct to conceive geological layers of the Earth as fiat object parts of the Earth, then even though these layers were first delineated in recent times, still existed long before such delineation and what holds of these layers (for example that the oldest layers are also the lowest layers) did not begin to hold because of our acts of delineation.Treatment of material entity in BFOExamples viewed by some as problematic cases for the trichotomy of fiat object part, object, and object aggregate include: a mussel on (and attached to) a rock, a slime mold, a pizza, a cloud, a galaxy, a railway train with engine and multiple carriages, a clonal stand of quaking aspen, a bacterial community (biofilm), a broken femur. Note that, as Aristotle already clearly recognized, such problematic cases – which lie at or near the penumbra of instances defined by the categories in question – need not invalidate these categories. The existence of grey objects does not prove that there are not objects which are black and objects which are white; the existence of mules does not prove that there are not objects which are donkeys and objects which are horses. It does, however, show that the examples in question need to be addressed carefully in order to show how they can be fitted into the proposed scheme, for example by recognizing additional subdivisions [29</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000024</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the FMA:regional parts of an intact human body.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000024</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the Western hemisphere of the Earth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000024</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the division of the brain into regions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000024</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the division of the planet into hemispheres</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000024</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the dorsal and ventral surfaces of the body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000024</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the upper and lower lobes of the left lung</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:BFO_0000024</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BFO 2 Reference: Most examples of fiat object parts are associated with theoretically drawn divisions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0010000"/>
+            <IRI>http://purl.obolibrary.org/obo/bfo/axiom/027-004</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000600"/>
+        <AbbreviatedIRI>obo:BFO_0000024</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">b is a fiat object part = Def. b is a material entity which is such that for all times t, if b exists at t then there is some object c such that b proper continuant_part of  c at t and c is demarcated from the remainder of c by a two-dimensional continuant fiat boundary. (axiom label in BFO2 Reference: [027-004])</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0010000"/>
+            <IRI>http://purl.obolibrary.org/obo/bfo/axiom/027-004</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000602"/>
+        <AbbreviatedIRI>obo:BFO_0000024</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">(forall (x) (if (FiatObjectPart x) (and (MaterialEntity x) (forall (t) (if (existsAt x t) (exists (y) (and (Object y) (properContinuantPartOfAt x y t)))))))) // axiom label in BFO2 CLIF: [027-004] </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:BFO_0000024</AbbreviatedIRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BFO_0000024</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fiat object part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000179"/>
+        <AbbreviatedIRI>obo:BFO_0000029</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">site</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000180"/>
+        <AbbreviatedIRI>obo:BFO_0000029</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Site</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000029</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Manhattan Canyon)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000029</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a hole in the interior of a portion of cheese</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000029</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a rabbit hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000029</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an air traffic control region defined in the airspace above an airport</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000029</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the Grand Canyon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000029</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the Piazza San Marco</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000029</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the cockpit of an aircraft</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000029</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the hold of a ship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000029</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the interior of a kangaroo pouch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000029</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the interior of the trunk of your car</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000029</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the interior of your bedroom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000029</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the interior of your office</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000029</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the interior of your refrigerator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000029</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the lumen of your gut</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000029</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">your left nostril (a fiat part – the opening – of your left nasal cavity)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0010000"/>
+            <IRI>http://purl.obolibrary.org/obo/bfo/axiom/034-002</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000600"/>
+        <AbbreviatedIRI>obo:BFO_0000029</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">b is a site means: b is a three-dimensional immaterial entity that is (partially or wholly) bounded by a material entity or it is a three-dimensional immaterial part thereof. (axiom label in BFO2 Reference: [034-002])</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0010000"/>
+            <IRI>http://purl.obolibrary.org/obo/bfo/axiom/034-002</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000602"/>
+        <AbbreviatedIRI>obo:BFO_0000029</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">(forall (x) (if (Site x) (ImmaterialEntity x))) // axiom label in BFO2 CLIF: [034-002] </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:BFO_0000029</AbbreviatedIRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BFO_0000029</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">site</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000179"/>
+        <AbbreviatedIRI>obo:BFO_0000030</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000180"/>
+        <AbbreviatedIRI>obo:BFO_0000030</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000030</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000030</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000030</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cells and organisms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000030</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">engineered artifacts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000030</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">grain of sand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000030</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">molecule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000030</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">organelle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000030</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">organism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000030</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">planet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000030</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">solid portions of matter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000030</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">star</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:BFO_0000030</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BFO 2 Reference: BFO rests on the presupposition that at multiple micro-, meso- and macroscopic scales reality exhibits certain stable, spatially separated or separable material units, combined or combinable into aggregates of various sorts (for example organisms into what are called ‘populations’). Such units play a central role in almost all domains of natural science from particle physics to cosmology. Many scientific laws govern the units in question, employing general terms (such as ‘molecule’ or ‘planet’) referring to the types and subtypes of units, and also to the types and subtypes of the processes through which such units develop and interact. The division of reality into such natural units is at the heart of biological science, as also is the fact that these units may form higher-level units (as cells form multicellular organisms) and that they may also form aggregates of units, for example as cells form portions of tissue and organs form families, herds, breeds, species, and so on. At the same time, the division of certain portions of reality into engineered units (manufactured artifacts) is the basis of modern industrial technology, which rests on the distributed mass production of engineered parts through division of labor and on their assembly into larger, compound units such as cars and laptops. The division of portions of reality into units is one starting point for the phenomenon of counting.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:BFO_0000030</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BFO 2 Reference: Each object is such that there are entities of which we can assert unproblematically that they lie in its interior, and other entities of which we can assert unproblematically that they lie in its exterior. This may not be so for entities lying at or near the boundary between the interior and exterior. This means that two objects – for example the two cells depicted in Figure 3 – may be such that there are material entities crossing their boundaries which belong determinately to neither cell. Something similar obtains in certain cases of conjoined twins (see below).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:BFO_0000030</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BFO 2 Reference: To say that b is causally unified means: b is a material entity which is such that its material parts are tied together in such a way that, in environments typical for entities of the type in question,if c, a continuant part of b that is in the interior of b at t, is larger than a certain threshold size (which will be determined differently from case to case, depending on factors such as porosity of external cover) and is moved in space to be at t at a location on the exterior of the spatial region that had been occupied by b at t, then either b’s other parts will be moved in coordinated fashion or b will be damaged (be affected, for example, by breakage or tearing) in the interval between t and t.causal changes in one part of b can have consequences for other parts of b without the mediation of any entity that lies on the exterior of b. Material entities with no proper material parts would satisfy these conditions trivially. Candidate examples of types of causal unity for material entities of more complex sorts are as follows (this is not intended to be an exhaustive list):CU1: Causal unity via physical coveringHere the parts in the interior of the unified entity are combined together causally through a common membrane or other physical covering\. The latter points outwards toward and may serve a protective function in relation to what lies on the exterior of the entity [13, 47</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:BFO_0000030</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BFO 2 Reference: an object is a maximal causally unified material entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:BFO_0000030</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BFO 2 Reference: ‘objects’ are sometimes referred to as ‘grains’ [74</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0010000"/>
+            <IRI>http://purl.obolibrary.org/obo/bfo/axiom/024-001</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000600"/>
+        <AbbreviatedIRI>obo:BFO_0000030</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">b is an object means: b is a material entity which manifests causal unity of one or other of the types CUn listed above &amp; is of a type (a material universal) instances of which are maximal relative to this criterion of causal unity. (axiom label in BFO2 Reference: [024-001])</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:BFO_0000030</AbbreviatedIRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BFO_0000030</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000179"/>
+        <AbbreviatedIRI>obo:BFO_0000034</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000180"/>
+        <AbbreviatedIRI>obo:BFO_0000034</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000034</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the function of a hammer to drive in nails</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000034</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the function of a heart pacemaker to regulate the beating of a heart through electricity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000034</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the function of amylase in saliva to break down starch into sugar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:BFO_0000034</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BFO 2 Reference: In the past, we have distinguished two varieties of function, artifactual function and biological function. These are not asserted subtypes of BFO:function however, since the same function – for example: to pump, to transport – can exist both in artifacts and in biological entities. The asserted subtypes of function that would be needed in order to yield a separate monoheirarchy are not artifactual function, biological function, etc., but rather transporting function, pumping function, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0010000"/>
+            <IRI>http://purl.obolibrary.org/obo/bfo/axiom/064-001</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000600"/>
+        <AbbreviatedIRI>obo:BFO_0000034</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A function is a disposition that exists in virtue of the bearer’s physical make-up and this physical make-up is something the bearer possesses because it came into being, either through evolution (in the case of natural biological entities) or through intentional design (in the case of artifacts), in order to realize processes of a certain sort. (axiom label in BFO2 Reference: [064-001])</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0010000"/>
+            <IRI>http://purl.obolibrary.org/obo/bfo/axiom/064-001</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000602"/>
+        <AbbreviatedIRI>obo:BFO_0000034</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">(forall (x) (if (Function x) (Disposition x))) // axiom label in BFO2 CLIF: [064-001] </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:BFO_0000034</AbbreviatedIRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BFO_0000034</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0010000"/>
+            <IRI>http://purl.obolibrary.org/obo/bfo/axiom/080-003</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000600"/>
+        <AbbreviatedIRI>obo:BFO_0000134</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">To say that each spatiotemporal region s temporally_projects_onto some temporal region t is to say that t is the temporal extension of s. (axiom label in BFO2 Reference: [080-003])</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0010000"/>
+            <IRI>http://purl.obolibrary.org/obo/bfo/axiom/081-003</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000600"/>
+        <AbbreviatedIRI>obo:BFO_0000134</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">To say that spatiotemporal region s spatially_projects_onto spatial region r at t is to say that r is the spatial extent of s at t. (axiom label in BFO2 Reference: [081-003])</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000179"/>
+        <AbbreviatedIRI>obo:BFO_0000145</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">r-quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000180"/>
+        <AbbreviatedIRI>obo:BFO_0000145</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RelationalQuality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000145</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">John’s role of husband to Mary is dependent on Mary’s role of wife to John, and both are dependent on the object aggregate comprising John and Mary as member parts joined together through the relational quality of being married.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000145</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a marriage bond, an instance of love, an obligation between one person and another.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0010000"/>
+            <IRI>http://purl.obolibrary.org/obo/bfo/axiom/057-001</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:BFO_0000145</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">b is a relational quality = Def. for some independent continuants c, d and for some time t: b quality_of c at t &amp; b quality_of d at t. (axiom label in BFO2 Reference: [057-001])</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0010000"/>
+            <IRI>http://purl.obolibrary.org/obo/bfo/axiom/057-001</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000602"/>
+        <AbbreviatedIRI>obo:BFO_0000145</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">(iff (RelationalQuality a) (exists (b c t) (and (IndependentContinuant b) (IndependentContinuant c) (qualityOfAt a b t) (qualityOfAt a c t)))) // axiom label in BFO2 CLIF: [057-001] </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:BFO_0000145</AbbreviatedIRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BFO_0000145</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">relational quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:BFO_0000179</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Relates an entity in the ontology to the name of the variable that is used to represent it in the code that generates the BFO OWL file from the lispy specification.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+        <AbbreviatedIRI>obo:BFO_0000179</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Really of interest to developers only</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BFO_0000179</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BFO OWL specification label</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:BFO_0000180</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Relates an entity in the ontology to the term that is used to represent it in the the CLIF specification of BFO2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:BFO_0000180</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Person:Alan Ruttenberg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+        <AbbreviatedIRI>obo:BFO_0000180</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Really of interest to developers only</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BFO_0000180</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BFO CLIF specification label</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000179"/>
+        <AbbreviatedIRI>obo:BFO_0000182</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">history</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000180"/>
+        <AbbreviatedIRI>obo:BFO_0000182</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">History</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0010000"/>
+            <IRI>http://purl.obolibrary.org/obo/bfo/axiom/138-001</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000600"/>
+        <AbbreviatedIRI>obo:BFO_0000182</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A history is a process that is the sum of the totality of processes taking place in the spatiotemporal region occupied by a material entity or site, including processes on the surface of the entity or within the cavities to which it serves as host. (axiom label in BFO2 Reference: [138-001])</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:BFO_0000182</AbbreviatedIRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BFO_0000182</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">history</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:IAO_0000111</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:iao.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000111</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">editor preferred term</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:IAO_0000112</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:iao.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000112</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">example of usage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:iao.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:iao.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">editor note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:IAO_0000117</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:iao.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000117</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">term editor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:IAO_0000118</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:iao.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000118</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">alternative term</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:IAO_0000119</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:iao.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000119</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">definition source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:IAO_0000232</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:iao.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000232</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">curator note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:IAO_0000412</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:iao.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000412</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">imported from</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:IAO_0000600</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:iao.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000600</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">elucidation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:IAO_0000601</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:iao.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000601</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has associated axiom(nl)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:IAO_0000602</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:iao.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000602</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has associated axiom(fol)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:IAO_0010000</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:iao.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0010000</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has axiom label</Literal>
+    </AnnotationAssertion>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000179"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000180"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.1.20160306-0033) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,2296 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.obolibrary.org/obo/doid.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.obolibrary.org/obo/doid.owl"
+     versionIRI="http://purl.obolibrary.org/obo/doid/releases/2018-03-02/doid.owl">
+    <Prefix name="" IRI="http://purl.obolibrary.org/obo/doid.owl"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#date"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">02:03:2018 16:24</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">lschriml</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">OBO-Edit 2.3.1</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">1.2</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The Disease Ontology content is available via the Creative Commons Public Domain Dedication CC0 1.0 Universal license (https://creativecommons.org/publicdomain/zero/1.0/).</Literal>
+    </Annotation>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/doid#gram-negative_bacterial_infectious_disease"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/doid#transmitted_by"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/doid#tick-borne_infectious_disease"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/doid#located_in"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_4962"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/doid#has_material_basis_in"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_0050166"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/doid#sexually_transmitted_infectious_disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_401"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_1638"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/doid#results_in"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_2149"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/doid#realized_by_supression_with"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/doid#is_a"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_0050598"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/doid#occurs_with"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_106"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/doid#GOLD"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/doid#complicated_by"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_2957"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/doid#zoonotic_infectious_disease"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/doid#DO_cancer_slim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_9801"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_402"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_9861"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_1639"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/doid#DO_MGI_slim"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_1251"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/doid#realized_by"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/doid#derives_from"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_9733"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_9305"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_7332"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/doid#DO_AGR_slim"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_827"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/doid#gram-positive_bacterial_infectious_disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_407"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/doid#results_in_formation_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/doid#has_symptom"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_399"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_2148"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/doid#inheres_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/doid#part_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_404"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_0050599"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_0050166"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_2149"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_0050598"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_399"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_0050599"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_0050598"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_106"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_0050598"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_1251"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_2149"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_1638"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_0050598"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_1639"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_0050598"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_2148"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_2149"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_2149"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_0050598"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_2957"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_399"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_401"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_399"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_402"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_404"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_404"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_0050599"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_407"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_404"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_4962"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_0050598"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_7332"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_404"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_827"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_2149"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_9305"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_0050599"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_9733"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_2149"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_9801"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_404"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_9861"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_0050598"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">url:http://books.google.com/books?id=tuKGMxGRKa8C&amp;pg=PA627&amp;lpg=PA627&amp;dq#v=onepage&amp;q&amp;f=false</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0050166</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An urogenital tuberculosis that results_in formation of granulomas located_in fallopian tube.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0050166</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD10CM:A18.17</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0050166</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM:016.6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0050166</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:186242002</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0050166</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:186243007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0050166</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0152828</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0050166</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0050166</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:0050166</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0050166</IRI>
+        <IRI>http://purl.obolibrary.org/obo/doid#gram-positive_bacterial_infectious_disease</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0050166</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">tuberculous salpingitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">url:http://www.pneumonologia.gr/articlefiles/20070307_EXTRAPULMONARY_tbc.pdf</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0050598</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A tuberculosis that occurs at body sites other than the lung.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0050598</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0050598</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:0050598</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0050598</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">extrapulmonary tuberculosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">url:http://www.pneumonologia.gr/articlefiles/20070307_EXTRAPULMONARY_tbc.pdf</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0050599</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An extrapulmonary tuberculosis that is located_in gastrointestinal tract, located_in peritoneum, located_in omentum, located_in mesentery, located_in liver, located_in spleen or located_in pancreas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0050599</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0050599</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:0050599</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0050599</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">abdominal tuberculosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">url:http://www.ncbi.nlm.nih.gov/pubmed/17426219</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An extrapulmonary tuberculosis that results_in lymphocyte-predominant exudative pleural effusion, located_in pleura. This results from an allergic response to tuberculoprotein causing the permeabiltity of the pleural vasculature to alter leading to a sub-pleural caseous focus rupture into the pleural sac.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:12624</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD10CM:A15.6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM:010.1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM:012.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM:012.00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MESH:D014396</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">NCI:C26898</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:170713008</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:171699006</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:186172004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:186182003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:186183008</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:186186000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:36379004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:68706009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0041326</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0152531</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_2005_07_31:170713008</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Pearly disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_2005_07_31:186183008</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Tuberculosis of pleura</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2006:012.0</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Tuberculous pleurisy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_2005_07_31:171699006</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Tuberculous pleuritis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">tuberculous pleurisy in primary progressive tuberculosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:106</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <IRI>http://purl.obolibrary.org/obo/doid#gram-positive_bacterial_infectious_disease</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">pleural tuberculosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">url:http://www.nature.com/aja/journal/v7/n3/abs/aja200560a.html</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1251</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An urogenital tuberculosis that is located_in epididymis, has_symptom pain and has_symptom scrotal swelling.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1251</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM:016.4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1251</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:83652003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1251</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0152814</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1251</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1251</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:1251</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1251</IRI>
+        <IRI>http://purl.obolibrary.org/obo/doid#gram-positive_bacterial_infectious_disease</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1251</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">tuberculous epididymitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">url:http://www.pneumonologia.gr/articlefiles/20070307_EXTRAPULMONARY_tbc.pdf</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1638</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An extrapulmonary tuberculosis that results in formation of tuberculomas located_in brain or located_in spinal cord.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1638</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:0050121</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1638</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:0050122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1638</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:10094</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1638</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:1640</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1638</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM:013.2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1638</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM:013.20</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1638</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MESH:D016862</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1638</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:40769007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1638</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:416265003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1638</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0085388</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_2005_07_31:186213005</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1638</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Tuberculosis of meninges and central nervous system (disorder)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1638</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">intracranial tuberculoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1638</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">tuberculoma of brain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1638</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">tuberculosis of meninges and central nervous system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1638</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">tuberculous abscess of brain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1638</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1638</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:1638</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1638</IRI>
+        <IRI>http://purl.obolibrary.org/obo/doid#gram-positive_bacterial_infectious_disease</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1638</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">central nervous system tuberculosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">url:http://en.wikipedia.org/wiki/Bone_Tuberculosis</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1639</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An extrapulmonary tuberculosis that results in formation of lesions located_in bone.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1639</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD10CM:A18.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1639</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM:015</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1639</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM:015.9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1639</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MESH:D014394</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1639</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:154287006</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1639</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:17653001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1639</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:186229002</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1639</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:186234003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1639</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:266084009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1639</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0041324</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1639</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">osteoarticular tuberculosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1639</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1639</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:1639</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1639</IRI>
+        <IRI>http://purl.obolibrary.org/obo/doid#gram-positive_bacterial_infectious_disease</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_1639</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">skeletal tuberculosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">url:http://www.ams.ac.ir/aim/0581/009.pdf</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2148</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An urogenital tuberculosis that results_in inflammtion located_in ovary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2148</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD10CM:A18.17</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2148</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM:016.6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2148</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:186242002</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2148</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:186243007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2148</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0152828</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2148</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2148</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:2148</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2148</IRI>
+        <IRI>http://purl.obolibrary.org/obo/doid#gram-positive_bacterial_infectious_disease</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2148</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">tuberculous oophoritis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">url:http://en.wikipedia.org/wiki/Urogenital_tuberculosis</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2149</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An extrapulmonary tuberculosis that is located_in urogenital system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2149</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD10CM:A18.1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2149</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD10CM:A18.10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2149</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM:016</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2149</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM:016.9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2149</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MESH:D014401</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2149</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:186246004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2149</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:4445009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2149</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0041333</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2149</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2149</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Genitourinary tuberculosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2149</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:2149</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2149</IRI>
+        <IRI>http://purl.obolibrary.org/obo/doid#gram-positive_bacterial_infectious_disease</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2149</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">urogenital tuberculosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">url:http://www.cdc.gov/tb/publications/factsheets/general/tb.htm</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=tuberculosis</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2957</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A tuberculosis that is a contagious disease located_in lungs. The infection has_symptom fever, has_symptom cough, has_symptom difficulty in breathing, has_symptom inflammatory infiltrations, has_symptom formation of tubercles, has_symptom caseation, has_symptom pleural effusion, and has_symptom fibrosis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2957</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD10CM:A15</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2957</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD10CM:A15.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2957</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM:011</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2957</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM:011.9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2957</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM:011.90</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2957</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MESH:D014397</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2957</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">NCI:C26899</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2957</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:154283005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2957</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:186180006</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2957</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:397190009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2957</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:700272008</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2957</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:81483001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2957</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0041327</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2957</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2957</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:2957</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2957</IRI>
+        <IRI>http://purl.obolibrary.org/obo/doid#gram-positive_bacterial_infectious_disease</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_2957</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">pulmonary tuberculosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">url:http://www.merckmanuals.com/home/sec17/ch193/ch193a.html</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">url:www.uphs.upenn.edu/bugdrug/antibiotic_manual/atstbdx99.pdf</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_399</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A primary bacterial infectious disease that is located_in lungs, located_in lymph nodes, located_in pericardium, located_in brain, located_in pleura or located_in gastrointestinal tract, has_material_basis_in Mycobacterium tuberculosis, which is transmitted_by droplets released into the air when an infected person coughs or sneezes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_399</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:10096</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_399</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:12688</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_399</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:12691</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_399</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:415</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_399</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:9901</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_399</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:9902</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_399</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MESH:D014375</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_399</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MESH:D014376</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_399</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:15202009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_399</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0041295</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_399</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_399</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:399</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_399</IRI>
+        <IRI>http://purl.obolibrary.org/obo/doid#gram-positive_bacterial_infectious_disease</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_399</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">TBType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">url:http://en.wikipedia.org/wiki/Multidrug-resistant_tuberculosis</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_401</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A tuberculosis that is resistant to isoniazid and rifampicin, the two most powerful first-line anti-TB drugs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_401</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MESH:D018088</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_401</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:423092005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_401</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0206526</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_401</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_401</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:401</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_401</IRI>
+        <IRI>http://purl.obolibrary.org/obo/doid#gram-positive_bacterial_infectious_disease</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_401</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">multidrug-resistant tuberculosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">url:http://www.ncbi.nlm.nih.gov/pubmed/16900894</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_402</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A gastrointestinal tuberculosis that involves formation of painful ulcerative mucosal lesions located_in tongue, located_in palate, located_in maxilla or located_in mandible.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_402</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MESH:D014393</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_402</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:235067001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_402</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0041323</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_2005_07_31:235067001</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_402</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Oral tuberculosis (disorder)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_402</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_402</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:402</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_402</IRI>
+        <IRI>http://purl.obolibrary.org/obo/doid#gram-positive_bacterial_infectious_disease</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_402</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">oral tuberculosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">url:http://emedicine.medscape.com/article/376015-overview</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">url:http://smj.sma.org.sg/5006/5006pe1.pdf</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">url:http://www.ncbi.nlm.nih.gov/pubmed/12864956</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_404</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An abdominal tuberculosis that results_in infection located_in gastrointestinal tract. The infection has_symptom abdominal pain, has_symptom weight loss, has_symptom fever, has_symptom anorexia, has_symptom change in bowel habits, has_symptom nausea, and has_symptom vomiting.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_404</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:9802</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_404</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MESH:D014385</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_404</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:154286002</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_404</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:186228005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_404</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:240376003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_404</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0041312</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_2005_07_31:154286002</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_404</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Tuberculosis of gastrointestinal tract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_2005_07_31:240376003</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_404</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Tuberculosis of gastrointestinal tract (disorder)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_2005_07_31:186228005</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_404</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Tuberculosis of gastrointestinal tract NOS (disorder)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_2005_07_31:186225008</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_404</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Tuberculosis of intestines, peritoneum and mesenteric glands (disorder)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2006:014</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_404</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Tuberculosis of intestines, peritoneum, and mesenteric glands</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_404</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">tuberculosis of intestines, peritoneum and mesenteric glands</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_404</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_404</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:404</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_404</IRI>
+        <IRI>http://purl.obolibrary.org/obo/doid#gram-positive_bacterial_infectious_disease</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_404</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">gastrointestinal tuberculosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">url:http://lrsitbrd.nic.in/IJTB/Year%201994/July%201994/July%201994%20B.pdf</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_407</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A gastrointestinal tuberculosis that involves infection located_in liver, which results in the formation of tuberculous granulomas. The infection has_symptom fever, has_symptom anorexia, has_symptom weight loss, has_symptom abdominal pain and has_symptom jaundice.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_407</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MESH:D014386</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_407</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:186273003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_407</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0041313</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_2005_07_31:186273003</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_407</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Tuberculosis of liver (disorder)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_407</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_407</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:407</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_407</IRI>
+        <IRI>http://purl.obolibrary.org/obo/doid#gram-positive_bacterial_infectious_disease</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_407</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hepatic tuberculosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">url:http://www.pneumonologia.gr/articlefiles/20070307_EXTRAPULMONARY_tbc.pdf</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_4962</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An extrapulmonary tuberculosis that is located_in pericardium resulting in acute pericarditis, chronic pericardial effusion, cardiac tamponade or pericardial constriction.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_4962</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD10CM:A18.84</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_4962</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MESH:D010495</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_4962</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:67256000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_4962</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0031049</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_4962</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">tuberculous pericarditis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_4962</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_4962</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:4962</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_4962</IRI>
+        <IRI>http://purl.obolibrary.org/obo/doid#gram-positive_bacterial_infectious_disease</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_4962</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">pericardial tuberculosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">url:http://www.springerlink.com/content/53763553187824h3/fulltext.pdf</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_7332</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A gastrointestinal tuberculosis that involves formation of tuberculous ulcers located_in esophagus. The infection has_symptom dysphagia, has_symptom cough, has_symptom chest pain, has_symptom fever and has_symptom weight loss.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_7332</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM:017.8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_7332</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:15284007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_7332</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0152902</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_7332</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">tuberculosis of esophagus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_7332</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_7332</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:7332</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_7332</IRI>
+        <IRI>http://purl.obolibrary.org/obo/doid#gram-positive_bacterial_infectious_disease</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_7332</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">esophageal tuberculosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">url:http://emedicine.medscape.com/article/450651-overview</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_827</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An urogenital tuberculosis that is located_in ureter resulting in ureteral strictures.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_827</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM:016.2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_827</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:81359005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_827</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0152800</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_827</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">tuberculosis of ureter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_827</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_827</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:827</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_827</IRI>
+        <IRI>http://purl.obolibrary.org/obo/doid#gram-positive_bacterial_infectious_disease</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_827</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ureter tuberculosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">url:http://www.pneumonologia.gr/articlefiles/20070307_EXTRAPULMONARY_tbc.pdf</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9305</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An abdominal tuberculosis that results_in formation of granulomas or abscesses located_in spleen.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9305</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD10CM:A18.85</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9305</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM:017.7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9305</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MESH:D014400</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9305</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:28399005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9305</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0041331</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9305</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9305</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:9305</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9305</IRI>
+        <IRI>http://purl.obolibrary.org/obo/doid#gram-positive_bacterial_infectious_disease</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9305</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">splenic tuberculosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">url:http://emedicine.medscape.com/article/450651-overview</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9733</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An urogenital tuberculosis that results_in formation of granulomas located_in kidney.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9733</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM:016.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9733</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM:016.00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9733</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MESH:D014398</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9733</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">NCI:C123020</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9733</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:186236001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9733</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:44323002</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9733</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0041328</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2006:016.0</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9733</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Tuberculosis of kidney</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9733</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9733</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:9733</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9733</IRI>
+        <IRI>http://purl.obolibrary.org/obo/doid#gram-positive_bacterial_infectious_disease</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9733</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">renal tuberculosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">url:http://books.google.com/books?id=130IVak1eCwC&amp;pg=PA695&amp;lpg=PA695&amp;dq#v=onepage&amp;q=&amp;f=false</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9801</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A gastrointestinal tuberculosis that results_in inflammation located_in peritoneum, which results in formation of tubercles. The infection has_symptom abdominal discomfort, has_symptom pain, has_symptom distention from gas or fluid, has_symptom digestive disturbances and has_symptom emaciation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9801</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD10CM:A18.31</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9801</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM:014.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9801</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MESH:D014395</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9801</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:197170002</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9801</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:31838005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9801</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:44572005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9801</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0041325</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9801</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9801</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:9801</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9801</IRI>
+        <IRI>http://purl.obolibrary.org/obo/doid#gram-positive_bacterial_infectious_disease</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9801</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">tuberculous peritonitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">url:http://en.wikipedia.org/wiki/Disseminated_tuberculosis</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9861</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An extrapulmonary tuberculosis that results in formation of tiny lesions in all the organs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9861</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:9862</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9861</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD10CM:A19</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9861</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD10CM:A19.9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9861</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM:018</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9861</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM:018.9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9861</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM:018.90</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9861</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MESH:D014391</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9861</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">NCI:C35086</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9861</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:154291001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9861</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:186280001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9861</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:187295007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9861</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2016_03_01:47604008</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9861</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0041321</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_2005_07_31:182159002</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9861</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Disseminated tuberculosis (disorder)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_2005_07_31:180213004</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9861</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Tuberculosis miliaris disseminata (disorder)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2006:018.0</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9861</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">acute miliary tuberculosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9861</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">generalized tuberculosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9861</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9861</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DOID:9861</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9861</IRI>
+        <IRI>http://purl.obolibrary.org/obo/doid#gram-positive_bacterial_infectious_disease</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/DOID_9861</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">miliary tuberculosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000115</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#DO_AGR_slim</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DO_AGR_slim</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DO_FlyBase_slim</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#DO_MGI_slim</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DO_MGI_slim</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#DO_cancer_slim</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DO cancer slim</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#DO_rare_slim</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DO_rare_slim</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#GOLD</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">GOLD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#NCIthesaurus</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">NCIt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">TopNodes_DOcancerslim</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#complicated_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#complicated_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">complicated_by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#complicated_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">complicated_by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DO:lh</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#derives_from</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Type of tissue or cell/the source of the material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#derives_from</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#derives_from</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">derives_from</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#derives_from</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">derives_from</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#gram-negative_bacterial_infectious_disease</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">gram-negative bacterial infectious disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#gram-positive_bacterial_infectious_disease</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">gram-positive bacterial infectious disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#has_material_basis_in</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#has_material_basis_in</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">has_material_basis_in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#has_material_basis_in</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">has_material_basis_in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#has_symptom</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#has_symptom</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">has_symptom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#has_symptom</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">has_symptom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#inheres_in</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#inheres_in</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">inheres_in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#inheres_in</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">inheres_in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#is_a</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#is_a</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">is_a</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#is_a</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">is_a</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DO:lh</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#located_in</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Anatomical location.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#located_in</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#located_in</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">located_in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#located_in</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">located_in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#occurs_with</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#occurs_with</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">occurs_with</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#occurs_with</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">occurs_with</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#part_of</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#part_of</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">part_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#part_of</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">part_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#realized_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#realized_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">realized_by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#realized_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">realized_by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#realized_by_supression_with</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#realized_by_supression_with</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">realized_by_supression_with</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#realized_by_supression_with</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">realized_by_supression_with</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DO:lh</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#results_in</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Development process/cause and effect/disease progress,process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#results_in</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#results_in</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">results_in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#results_in</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">results_in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DO:lh</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#results_in_formation_of</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Formation of structure,cancer,etc./cause and effect.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#results_in_formation_of</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#results_in_formation_of</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">results_in_formation_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#results_in_formation_of</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">results_in_formation_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#sexually_transmitted_infectious_disease</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sexually transmitted infectious disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#tick-borne_infectious_disease</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">tick-borne infectious disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DO:lh</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#transmitted_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Pathogen is transmitted.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#transmitted_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">disease_ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#transmitted_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">transmitted_by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#transmitted_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">transmitted_by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/doid#zoonotic_infectious_disease</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">zoonotic infectious disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#SubsetProperty</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">subset_property</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#hasAlternativeId</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">has_alternative_id</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#hasDbXref</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#hasExactSynonym</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">has_narrow_synonym</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">has_obo_format_version</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#hasOBONamespace</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.geneontology.org/formats/oboInOwl#inSubset</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">in_subset</Literal>
+    </AnnotationAssertion>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/doid#DO_AGR_slim"/>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim"/>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/doid#DO_MGI_slim"/>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/doid#DO_cancer_slim"/>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/doid#GOLD"/>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim"/>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/doid#gram-negative_bacterial_infectious_disease"/>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/doid#gram-positive_bacterial_infectious_disease"/>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/doid#sexually_transmitted_infectious_disease"/>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/doid#tick-borne_infectious_disease"/>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/doid#zoonotic_infectious_disease"/>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </SubAnnotationPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.1.20160306-0033) https://github.com/owlcs/owlapi -->
+

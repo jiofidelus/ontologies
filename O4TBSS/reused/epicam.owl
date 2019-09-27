@@ -1,0 +1,3209 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.ummisco.fr/2016/6/epicam"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.ummisco.fr/2016/6/epicam"
+     versionIRI="http://www.ummisco.fr/2016/6/epicam/01">
+    <Prefix name="" IRI="http://www.ummisco.fr/2016/6/epicam"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <ObjectProperty IRI="#CDTDepart"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#outBox_message"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#deleted"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#detailCommandeMedicament_medicament"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#detailRavitaillement_ravitaillement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#reception_cDT"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#commande__Reception_commande"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#transfertReference_dateArrivee"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sortieLot__DetailRavitaillement_sortieLot"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#formation_libelle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sync_session"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExamenATB_bck"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#rendezVous_dateRendezVous"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#personnel_actif"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PriseMedicamentRegime_bck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ravitaillement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#departPersonnel_districtSante"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#centreDiagTrait__DepartPersonnel_cDT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExamenSerologie"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#candidatureFormation_cDT"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DetailCommande"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#formation_lieu"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#detailInventaire_lot"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#examenBiologique_patient"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#actiontype"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#region__DepartPersonnel_region"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#personnel_nom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#traitement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#UserUserAction"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#personnel_dateNaissance"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#centreDiagTrait__CandidatureFormation_cDT"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#detailCommandeIntrant__DetailReceptionIntrant_detailCommande"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#detailCommandeMedicament_quantiteEnStock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArriveePersonnel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PriseMedicamenteuse_bck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepartPersonnel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#personnel_dateArrivee"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#regime_poidsMin"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#patient__CasIndex_patientLie"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#patient_pacTelephoneUn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CandidatureFormation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExamenMicroscopie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExamenMicroscopie_bck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HorsUsage_bck"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#patient_telephoneUn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sortieLot_quantite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#structureSanitaire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Default_user"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CentreDiagTrait"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#detailCommandeMedicament__DetailReceptionMedicament_detailCommande"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#candidatureFormation_personnel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DistrictSante"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LieuDit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DistrictSante_bck"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#EntreeLot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SortieLot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SmsPredefini_bck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExamenATB"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#districtSante__DepartPersonnel_districtSante"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#transfertReference_cDTArrivee"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#examenSerologie_resultatCD4"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tutoriel_nom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#horsUsage_lot"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sortieLot__HorsUsage_lot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medicament_bck"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#regime_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#districtSante__ArriveePersonnel_districtSante"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fieldgroupprofile"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#detailCommandeIntrant_quantiteRequise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reception"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DetailRavitaillement_bck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExamenBiologique"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#centreDiagTrait_region"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#centreDiagTrait__Lot_cDT"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#commande__DetailReceptionMedicament_commande"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#patient__CasIndex_patient"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#qualification_code"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#commande_date"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#districtSante__CentreDiagTrait_districtSante"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#centreDiagTrait__Commande_cDT"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#terminalID"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#intrant__DetailCommandeIntrant_intrant"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#laboratoireReference_nom"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#utilisateur_profession"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#intrant_identifiant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_bck"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#departPersonnel_personnel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#priseMedicamenteuse_dateEffective"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ravitaillement_cDTArrivee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Formation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#transfertReference_dateDepart"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#connectionDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#casIndex_typeRelation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#entreeLot__DetailRavitaillement_entreeLot"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#utilisateur_dateNaissance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LaboratoireReference"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#initDate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#medicament__DetailCommandeMedicament_medicament"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DetailInventaire"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#qualification_nom"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#rendezVous_honore"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#priseMedicamentRegime_medicament"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#candidatureFormation_approuveeGTC"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#examenMicroscopie_raisonDepistage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#personnel__ArriveePersonnel_personnel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DetailReceptionIntrant"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ravitaillement_dateArrivee"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#patient_nom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#medicament__PriseMedicamentRegime_medicament"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inventaire_bck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intrant_bck"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PatientLie"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#detailRavitaillement_sortieLot"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#smsPredefini_objet"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CasTb"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#laboratoireReference_nature"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#synchActor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#medicament_code"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#examenLabo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ravitaillement_dateDepart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DepartPersonnel_bck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DetailRavitaillement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regime_bck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArriveePersonnel_bck"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tutoriel_type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#arriveePersonnel_dateArrivee"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#departPersonnel_cDT"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#detailReceptionIntrant_commande"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#districtSante__CandidatureFormation_districtSante"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExamenBiologique_bck"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entityprofile"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#intrant_nom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Ravitaillement"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#patient_age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sensibilisation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#departPersonnel_dateDepart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#casIndex_patientLie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Notification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#reception_commande"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#examenSerologie_dateTest"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#personnel_dateDepart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LaboratoireReference_bck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PriseMedicamentRegime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Qualification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CandidatureFormation_bck"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#reception_dateReception"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CDTArrivee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Client_filter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#arriveePersonnel_personnel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#region_nom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DetailReceptionMedicament"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CasTuberculose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tutoriel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HorsUsage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#inventaire_date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#create"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#arriveePersonnel_region"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#centreDiagTrait_nom"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#candidatureFormation_approuveeRegion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#utilisateur_nom"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#traceid"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#smsPredefini_message"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Lot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SmsPredefini"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutBox_bck"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#NotificationUser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CasIndex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DetailInventaire_bck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Push_connection"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#beNotified"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SortieLot_bck"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#examenSerologie_patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gestionMedicament"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#transfertReference_nature"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#centreDiagTrait__Inventaire_cDT"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#regime_dureeTraitement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#departPersonnel_region"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#districtSante_nom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#region__DistrictSante_region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RendezVous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#medicament"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#delete"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#modifiedfrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sortieLot_lot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sync_entities"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Personnel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#patient_sexe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#lot_medicament"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DetailCommandeMedicament"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#centreDiagTrait__Reception_cDT"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#examenSerologie_nature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Qualification_bck"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#level"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#modifiedby"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#detailCommandeIntrant_intrant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tutoriel_bck"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#casTuberculose_patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lot_bck"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#status"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#lot__DetailInventaire_lot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DetailReceptionIntrant_bck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inventaire"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#intrant__Lot_intrant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EntreeLot_bck"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#examenMicroscopie_resultat"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#directaccess"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sendDate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Region_bck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sync_history"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RendezVous_bck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Useraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExamenSerologie_bck"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#uploaddate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#centreDiagTrait__ArriveePersonnel_cDT"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tutoriel_reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CasIndex_bck"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#casTuberculose_formeMaladie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medicament"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#lot_datePeremption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DetailCommandeMedicament_bck"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#districtSante_region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TransfertReference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Actor_profiles"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#examenATB_raisonDepistage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#createdby"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#centreDiagTrait__Ravitaillement_cDTArrivee"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#entreeLot_lot"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#transfertReference_cDTDepart"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#actiondate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#region__CentreDiagTrait_region"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#patient_telephoneDeux"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personnel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#medicament__Lot_medicament"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#examenATB_resultat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gestionPatient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#centreDiagTrait__Ravitaillement_cDTDepart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Region"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#smsPredefini_type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#lastconnection"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#SortieLot"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#centreDiagTrait__TransfertReference_cDTArrivee"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#casTuberculose__ExamenMicroscopie_casTb"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#modified"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Utilisateur"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#detailCommandeMedicament_quantiteRequise"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#examenMicroscopie_date"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#personnel__CandidatureFormation_personnel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#terminal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#detailInventaire_quantiteReelle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#detailReceptionMedicament_detailCommande"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#lot__SortieLot_lot"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#examenMicroscopie_casTb"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#detailCommandeIntrant_quantiteEnStock"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#patient_pacNom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Commande"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personnel_bck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intrant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LieuDit_bck"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#region__ArriveePersonnel_region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CasTuberculose_bck"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#regime_nom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#arriveePersonnel_districtSante"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ravitaillement__DetailRavitaillement_ravitaillement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#syncActor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#casIndex_patient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#transfertReference_patient"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#examenSerologie_resultatVIH"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#examenBiologique_poids"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#lot_numero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#localisation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#lieuDit_nom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutBox"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reception_bck"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#commande__DetailReceptionIntrant_commande"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#created"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EntreeLot"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#patient_identifiant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#examenATB_casTb"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#casTuberculose_dateDebutTraitement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Commande"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#personnel_niveau"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#patient__CasTuberculose_patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DetailCommandeIntrant"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#medicament_designation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#centreDiagTrait_districtSante"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#lot_intrant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inventaire_cDT"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ravitaillement_cDTDepart"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#casTuberculose_typePatient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#lot__EntreeLot_lot"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#detailReceptionIntrant_detailCommande"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#examenBiologique_date"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#patient__ExamenSerologie_patient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#commande_cDT"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#medicament_estMedicamentAntituberculeux"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#centreDiagTrait__TransfertReference_cDTDepart"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#detailInventaire_quantiteTheorique"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#examenATB_dateExamen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Formation_bck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TransfertReference_bck"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#horsUsage_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#patient__TransfertReference_patient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#detailRavitaillement_entreeLot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PriseMedicamenteuse"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#region_code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Intrant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#arriveePersonnel_cDT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DetailCommandeIntrant_bck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#formation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gestionPersonnel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#lot_cDT"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CDT"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#lastping"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DistrictSante"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Commande_bck"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#casTuberculose__ExamenATB_casTb"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#patient_dateNaissance"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#regime_poidsMax"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#export"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DetailReceptionMedicament_bck"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#detailReceptionMedicament_commande"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#personnel__DepartPersonnel_personnel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#candidatureFormation_districtSante"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#entreeLot_quantite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ravitaillement_bck"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#formation_dateDebut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Utilisateur_bck"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#patient__ExamenBiologique_patient"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#lot_quantite"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#disconnectionDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#patient_profession"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#formation_effectuee"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Medicament"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ArriveePersonnel"/>
+        <Class IRI="#gestionPersonnel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArriveePersonnel_bck"/>
+        <Class IRI="#gestionPersonnel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CandidatureFormation"/>
+        <Class IRI="#formation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CandidatureFormation_bck"/>
+        <Class IRI="#formation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CasIndex"/>
+        <Class IRI="#gestionPatient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CasIndex_bck"/>
+        <Class IRI="#gestionPatient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CasTuberculose"/>
+        <Class IRI="#gestionPatient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CasTuberculose"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#casTuberculose__ExamenATB_casTb"/>
+            <Class IRI="#ExamenATB"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CasTuberculose"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#casTuberculose__ExamenMicroscopie_casTb"/>
+            <Class IRI="#ExamenMicroscopie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CasTuberculose_bck"/>
+        <Class IRI="#gestionPatient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CentreDiagTrait"/>
+        <Class IRI="#structureSanitaire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CentreDiagTrait"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#centreDiagTrait__ArriveePersonnel_cDT"/>
+            <Class IRI="#ArriveePersonnel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CentreDiagTrait"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#centreDiagTrait__CandidatureFormation_cDT"/>
+            <Class IRI="#CandidatureFormation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CentreDiagTrait"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#centreDiagTrait__Commande_cDT"/>
+            <Class IRI="#Commande"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CentreDiagTrait"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#centreDiagTrait__DepartPersonnel_cDT"/>
+            <Class IRI="#DepartPersonnel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CentreDiagTrait"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#centreDiagTrait__Inventaire_cDT"/>
+            <Class IRI="#Inventaire"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CentreDiagTrait"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#centreDiagTrait__Lot_cDT"/>
+            <Class IRI="#Lot"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CentreDiagTrait"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#centreDiagTrait__Ravitaillement_cDTArrivee"/>
+            <Class IRI="#Ravitaillement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CentreDiagTrait"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#centreDiagTrait__Ravitaillement_cDTDepart"/>
+            <Class IRI="#Ravitaillement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CentreDiagTrait"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#centreDiagTrait__Reception_cDT"/>
+            <Class IRI="#Reception"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CentreDiagTrait"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#centreDiagTrait__TransfertReference_cDTArrivee"/>
+            <Class IRI="#TransfertReference"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CentreDiagTrait"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#centreDiagTrait__TransfertReference_cDTDepart"/>
+            <Class IRI="#TransfertReference"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Commande"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Commande"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#commande__DetailReceptionIntrant_commande"/>
+            <Class IRI="#DetailReceptionIntrant"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Commande"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#commande__DetailReceptionMedicament_commande"/>
+            <Class IRI="#DetailReceptionMedicament"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Commande"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#commande__Reception_commande"/>
+            <Class IRI="#Reception"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Commande_bck"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepartPersonnel"/>
+        <Class IRI="#gestionPersonnel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DepartPersonnel_bck"/>
+        <Class IRI="#gestionPersonnel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetailCommandeIntrant"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetailCommandeIntrant"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#detailCommandeIntrant__DetailReceptionIntrant_detailCommande"/>
+            <Class IRI="#DetailReceptionIntrant"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetailCommandeIntrant_bck"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetailCommandeMedicament"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetailCommandeMedicament"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#detailCommandeMedicament__DetailReceptionMedicament_detailCommande"/>
+            <Class IRI="#DetailReceptionMedicament"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetailCommandeMedicament_bck"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetailInventaire"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetailInventaire_bck"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetailRavitaillement"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetailRavitaillement_bck"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetailReceptionIntrant"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetailReceptionIntrant_bck"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetailReceptionMedicament"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetailReceptionMedicament_bck"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistrictSante"/>
+        <Class IRI="#structureSanitaire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistrictSante"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#districtSante__ArriveePersonnel_districtSante"/>
+            <Class IRI="#ArriveePersonnel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistrictSante"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#districtSante__CandidatureFormation_districtSante"/>
+            <Class IRI="#CandidatureFormation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistrictSante"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#districtSante__CentreDiagTrait_districtSante"/>
+            <Class IRI="#CentreDiagTrait"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistrictSante"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#districtSante__DepartPersonnel_districtSante"/>
+            <Class IRI="#DepartPersonnel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistrictSante_bck"/>
+        <Class IRI="#structureSanitaire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EntreeLot"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EntreeLot"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#entreeLot__DetailRavitaillement_entreeLot"/>
+            <Class IRI="#DetailRavitaillement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EntreeLot_bck"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExamenATB"/>
+        <Class IRI="#examenLabo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExamenATB_bck"/>
+        <Class IRI="#examenLabo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExamenBiologique"/>
+        <Class IRI="#examenLabo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExamenBiologique_bck"/>
+        <Class IRI="#examenLabo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExamenMicroscopie"/>
+        <Class IRI="#examenLabo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExamenMicroscopie_bck"/>
+        <Class IRI="#examenLabo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExamenSerologie"/>
+        <Class IRI="#examenLabo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExamenSerologie_bck"/>
+        <Class IRI="#examenLabo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Formation"/>
+        <Class IRI="#formation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Formation_bck"/>
+        <Class IRI="#formation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HorsUsage"/>
+        <Class IRI="#medicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HorsUsage_bck"/>
+        <Class IRI="#medicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intrant"/>
+        <Class IRI="#medicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intrant"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#intrant__DetailCommandeIntrant_intrant"/>
+            <Class IRI="#DetailCommandeIntrant"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intrant"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#intrant__Lot_intrant"/>
+            <Class IRI="#Lot"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intrant_bck"/>
+        <Class IRI="#medicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inventaire"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inventaire_bck"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LaboratoireReference"/>
+        <Class IRI="#structureSanitaire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LaboratoireReference_bck"/>
+        <Class IRI="#structureSanitaire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LieuDit"/>
+        <Class IRI="#localisation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LieuDit_bck"/>
+        <Class IRI="#localisation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lot"/>
+        <Class IRI="#medicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lot"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#lot__DetailInventaire_lot"/>
+            <Class IRI="#DetailInventaire"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lot"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#lot__EntreeLot_lot"/>
+            <Class IRI="#EntreeLot"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lot"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#lot__SortieLot_lot"/>
+            <Class IRI="#SortieLot"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lot_bck"/>
+        <Class IRI="#medicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medicament"/>
+        <Class IRI="#medicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medicament"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#medicament__DetailCommandeMedicament_medicament"/>
+            <Class IRI="#DetailCommandeMedicament"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medicament"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#medicament__Lot_medicament"/>
+            <Class IRI="#Lot"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medicament"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#medicament__PriseMedicamentRegime_medicament"/>
+            <Class IRI="#PriseMedicamentRegime"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medicament_bck"/>
+        <Class IRI="#medicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutBox"/>
+        <Class IRI="#sensibilisation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutBox_bck"/>
+        <Class IRI="#sensibilisation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <Class IRI="#gestionPatient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#patient__CasIndex_patient"/>
+            <Class IRI="#CasIndex"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#patient__CasIndex_patientLie"/>
+            <Class IRI="#CasIndex"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#patient__CasTuberculose_patient"/>
+            <Class IRI="#CasTuberculose"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#patient__ExamenBiologique_patient"/>
+            <Class IRI="#ExamenBiologique"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#patient__ExamenSerologie_patient"/>
+            <Class IRI="#ExamenSerologie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#patient__TransfertReference_patient"/>
+            <Class IRI="#TransfertReference"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_bck"/>
+        <Class IRI="#gestionPatient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personnel"/>
+        <Class IRI="#gestionPersonnel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personnel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#personnel__ArriveePersonnel_personnel"/>
+            <Class IRI="#ArriveePersonnel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personnel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#personnel__CandidatureFormation_personnel"/>
+            <Class IRI="#CandidatureFormation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personnel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#personnel__DepartPersonnel_personnel"/>
+            <Class IRI="#DepartPersonnel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personnel_bck"/>
+        <Class IRI="#gestionPersonnel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PriseMedicamentRegime"/>
+        <Class IRI="#traitement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PriseMedicamentRegime_bck"/>
+        <Class IRI="#traitement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PriseMedicamenteuse"/>
+        <Class IRI="#traitement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PriseMedicamenteuse_bck"/>
+        <Class IRI="#traitement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Qualification"/>
+        <Class IRI="#gestionPersonnel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Qualification_bck"/>
+        <Class IRI="#gestionPersonnel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ravitaillement"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ravitaillement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ravitaillement__DetailRavitaillement_ravitaillement"/>
+            <Class IRI="#DetailRavitaillement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ravitaillement_bck"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reception"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reception_bck"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regime"/>
+        <Class IRI="#traitement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regime_bck"/>
+        <Class IRI="#traitement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Region"/>
+        <Class IRI="#structureSanitaire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Region"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#region__ArriveePersonnel_region"/>
+            <Class IRI="#ArriveePersonnel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Region"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#region__CentreDiagTrait_region"/>
+            <Class IRI="#CentreDiagTrait"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Region"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#region__DepartPersonnel_region"/>
+            <Class IRI="#DepartPersonnel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Region"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#region__DistrictSante_region"/>
+            <Class IRI="#DistrictSante"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Region_bck"/>
+        <Class IRI="#structureSanitaire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RendezVous"/>
+        <Class IRI="#traitement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RendezVous_bck"/>
+        <Class IRI="#traitement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SmsPredefini"/>
+        <Class IRI="#sensibilisation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SmsPredefini_bck"/>
+        <Class IRI="#sensibilisation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SortieLot"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SortieLot"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#sortieLot__DetailRavitaillement_sortieLot"/>
+            <Class IRI="#DetailRavitaillement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SortieLot"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#sortieLot__HorsUsage_lot"/>
+            <Class IRI="#HorsUsage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SortieLot_bck"/>
+        <Class IRI="#gestionMedicament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransfertReference"/>
+        <Class IRI="#traitement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransfertReference_bck"/>
+        <Class IRI="#traitement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tutoriel"/>
+        <Class IRI="#formation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tutoriel_bck"/>
+        <Class IRI="#formation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Utilisateur"/>
+        <Class IRI="#gestionPersonnel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Utilisateur_bck"/>
+        <Class IRI="#gestionPersonnel"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CDT"/>
+        <Class IRI="#ArriveePersonnel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CDT"/>
+        <Class IRI="#CandidatureFormation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CDT"/>
+        <Class IRI="#Commande"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CDT"/>
+        <Class IRI="#DepartPersonnel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CDT"/>
+        <Class IRI="#Inventaire"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CDT"/>
+        <Class IRI="#Lot"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CDT"/>
+        <Class IRI="#Reception"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CDTArrivee"/>
+        <Class IRI="#Ravitaillement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CDTArrivee"/>
+        <Class IRI="#TransfertReference"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CDTDepart"/>
+        <Class IRI="#Ravitaillement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CDTDepart"/>
+        <Class IRI="#TransfertReference"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CasTb"/>
+        <Class IRI="#ExamenATB"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CasTb"/>
+        <Class IRI="#ExamenMicroscopie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Commande"/>
+        <Class IRI="#DetailReceptionIntrant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Commande"/>
+        <Class IRI="#DetailReceptionMedicament"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Commande"/>
+        <Class IRI="#Reception"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DetailCommande"/>
+        <Class IRI="#DetailReceptionIntrant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DetailCommande"/>
+        <Class IRI="#DetailReceptionMedicament"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DistrictSante"/>
+        <Class IRI="#ArriveePersonnel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DistrictSante"/>
+        <Class IRI="#CandidatureFormation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DistrictSante"/>
+        <Class IRI="#CentreDiagTrait"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DistrictSante"/>
+        <Class IRI="#DepartPersonnel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#EntreeLot"/>
+        <Class IRI="#DetailRavitaillement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Intrant"/>
+        <Class IRI="#DetailCommandeIntrant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Intrant"/>
+        <Class IRI="#Lot"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Lot"/>
+        <Class IRI="#DetailInventaire"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Lot"/>
+        <Class IRI="#EntreeLot"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Lot"/>
+        <Class IRI="#HorsUsage"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Lot"/>
+        <Class IRI="#SortieLot"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Medicament"/>
+        <Class IRI="#DetailCommandeMedicament"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Medicament"/>
+        <Class IRI="#Lot"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Medicament"/>
+        <Class IRI="#PriseMedicamentRegime"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#NotificationUser"/>
+        <Class IRI="#Utilisateur"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Patient"/>
+        <Class IRI="#CasIndex"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Patient"/>
+        <Class IRI="#CasTuberculose"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Patient"/>
+        <Class IRI="#ExamenBiologique"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Patient"/>
+        <Class IRI="#ExamenSerologie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Patient"/>
+        <Class IRI="#TransfertReference"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#PatientLie"/>
+        <Class IRI="#CasIndex"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Personnel"/>
+        <Class IRI="#ArriveePersonnel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Personnel"/>
+        <Class IRI="#CandidatureFormation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Personnel"/>
+        <Class IRI="#DepartPersonnel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Ravitaillement"/>
+        <Class IRI="#DetailRavitaillement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Region"/>
+        <Class IRI="#ArriveePersonnel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Region"/>
+        <Class IRI="#CentreDiagTrait"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Region"/>
+        <Class IRI="#DepartPersonnel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Region"/>
+        <Class IRI="#DistrictSante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SortieLot"/>
+        <Class IRI="#DetailRavitaillement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#UserUserAction"/>
+        <Class IRI="#Utilisateur"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#syncActor"/>
+        <Class IRI="#Utilisateur"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#synchActor"/>
+        <Class IRI="#Utilisateur"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CDT"/>
+        <Class IRI="#ArriveePersonnel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CDT"/>
+        <Class IRI="#CandidatureFormation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CDT"/>
+        <Class IRI="#Commande"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CDT"/>
+        <Class IRI="#DepartPersonnel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CDT"/>
+        <Class IRI="#Inventaire"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CDT"/>
+        <Class IRI="#Lot"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CDT"/>
+        <Class IRI="#Reception"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CDTArrivee"/>
+        <Class IRI="#Ravitaillement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CDTArrivee"/>
+        <Class IRI="#TransfertReference"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CDTDepart"/>
+        <Class IRI="#Ravitaillement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CDTDepart"/>
+        <Class IRI="#TransfertReference"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CasTb"/>
+        <Class IRI="#ExamenATB"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CasTb"/>
+        <Class IRI="#ExamenMicroscopie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Commande"/>
+        <Class IRI="#DetailReceptionIntrant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Commande"/>
+        <Class IRI="#DetailReceptionMedicament"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Commande"/>
+        <Class IRI="#Reception"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DetailCommande"/>
+        <Class IRI="#DetailReceptionIntrant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DetailCommande"/>
+        <Class IRI="#DetailReceptionMedicament"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DistrictSante"/>
+        <Class IRI="#ArriveePersonnel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DistrictSante"/>
+        <Class IRI="#CandidatureFormation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DistrictSante"/>
+        <Class IRI="#CentreDiagTrait"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DistrictSante"/>
+        <Class IRI="#DepartPersonnel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#EntreeLot"/>
+        <Class IRI="#DetailRavitaillement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Intrant"/>
+        <Class IRI="#DetailCommandeIntrant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Intrant"/>
+        <Class IRI="#Lot"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Lot"/>
+        <Class IRI="#DetailInventaire"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Lot"/>
+        <Class IRI="#EntreeLot"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Lot"/>
+        <Class IRI="#HorsUsage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Lot"/>
+        <Class IRI="#SortieLot"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Medicament"/>
+        <Class IRI="#DetailCommandeMedicament"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Medicament"/>
+        <Class IRI="#Lot"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Medicament"/>
+        <Class IRI="#PriseMedicamentRegime"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#NotificationUser"/>
+        <Class IRI="#Notification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Patient"/>
+        <Class IRI="#CasIndex"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Patient"/>
+        <Class IRI="#CasTuberculose"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Patient"/>
+        <Class IRI="#ExamenBiologique"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Patient"/>
+        <Class IRI="#ExamenSerologie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Patient"/>
+        <Class IRI="#TransfertReference"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#PatientLie"/>
+        <Class IRI="#CasIndex"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Personnel"/>
+        <Class IRI="#ArriveePersonnel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Personnel"/>
+        <Class IRI="#CandidatureFormation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Personnel"/>
+        <Class IRI="#DepartPersonnel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Ravitaillement"/>
+        <Class IRI="#DetailRavitaillement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Region"/>
+        <Class IRI="#ArriveePersonnel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Region"/>
+        <Class IRI="#CentreDiagTrait"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Region"/>
+        <Class IRI="#DepartPersonnel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Region"/>
+        <Class IRI="#DistrictSante"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SortieLot"/>
+        <Class IRI="#DetailRavitaillement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#UserUserAction"/>
+        <Class IRI="#Useraction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#syncActor"/>
+        <Class IRI="#Sync_session"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#synchActor"/>
+        <Class IRI="#Sync_entities"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#actiondate"/>
+        <Class IRI="#Useraction"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#actiontype"/>
+        <Class IRI="#Useraction"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#arriveePersonnel_dateArrivee"/>
+        <Class IRI="#ArriveePersonnel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#beNotified"/>
+        <Class IRI="#Default_user"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#candidatureFormation_approuveeGTC"/>
+        <Class IRI="#CandidatureFormation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#candidatureFormation_approuveeRegion"/>
+        <Class IRI="#CandidatureFormation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#casIndex_typeRelation"/>
+        <Class IRI="#CasIndex"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#casTuberculose_dateDebutTraitement"/>
+        <Class IRI="#CasTuberculose"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#casTuberculose_formeMaladie"/>
+        <Class IRI="#CasTuberculose"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#casTuberculose_typePatient"/>
+        <Class IRI="#CasTuberculose"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#centreDiagTrait_nom"/>
+        <Class IRI="#CentreDiagTrait"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#commande_date"/>
+        <Class IRI="#Commande"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#connectionDate"/>
+        <Class IRI="#Push_connection"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#create"/>
+        <Class IRI="#Entityprofile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#create"/>
+        <Class IRI="#Fieldgroupprofile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#delete"/>
+        <Class IRI="#Entityprofile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#delete"/>
+        <Class IRI="#Fieldgroupprofile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#departPersonnel_dateDepart"/>
+        <Class IRI="#DepartPersonnel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#detailCommandeIntrant_quantiteEnStock"/>
+        <Class IRI="#DetailCommandeIntrant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#detailCommandeIntrant_quantiteRequise"/>
+        <Class IRI="#DetailCommandeIntrant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#detailCommandeMedicament_quantiteEnStock"/>
+        <Class IRI="#DetailCommandeMedicament"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#detailCommandeMedicament_quantiteRequise"/>
+        <Class IRI="#DetailCommandeMedicament"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#detailInventaire_quantiteReelle"/>
+        <Class IRI="#DetailInventaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#detailInventaire_quantiteTheorique"/>
+        <Class IRI="#DetailInventaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#directaccess"/>
+        <Class IRI="#Entityprofile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#directaccess"/>
+        <Class IRI="#Fieldgroupprofile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#disconnectionDate"/>
+        <Class IRI="#Push_connection"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#districtSante_nom"/>
+        <Class IRI="#DistrictSante"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#entreeLot_quantite"/>
+        <Class IRI="#EntreeLot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#examenATB_dateExamen"/>
+        <Class IRI="#ExamenATB"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#examenATB_raisonDepistage"/>
+        <Class IRI="#ExamenATB"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#examenATB_resultat"/>
+        <Class IRI="#ExamenATB"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#examenBiologique_date"/>
+        <Class IRI="#ExamenBiologique"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#examenBiologique_poids"/>
+        <Class IRI="#ExamenBiologique"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#examenMicroscopie_date"/>
+        <Class IRI="#ExamenMicroscopie"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#examenMicroscopie_raisonDepistage"/>
+        <Class IRI="#ExamenMicroscopie"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#examenMicroscopie_resultat"/>
+        <Class IRI="#ExamenMicroscopie"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#examenSerologie_dateTest"/>
+        <Class IRI="#ExamenSerologie"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#examenSerologie_nature"/>
+        <Class IRI="#ExamenSerologie"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#examenSerologie_resultatCD4"/>
+        <Class IRI="#ExamenSerologie"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#examenSerologie_resultatVIH"/>
+        <Class IRI="#ExamenSerologie"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#export"/>
+        <Class IRI="#Entityprofile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#export"/>
+        <Class IRI="#Fieldgroupprofile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#formation_dateDebut"/>
+        <Class IRI="#Formation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#formation_effectuee"/>
+        <Class IRI="#Formation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#formation_libelle"/>
+        <Class IRI="#Formation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#formation_lieu"/>
+        <Class IRI="#Formation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#horsUsage_type"/>
+        <Class IRI="#HorsUsage"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#initDate"/>
+        <Class IRI="#Sync_session"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#intrant_identifiant"/>
+        <Class IRI="#Intrant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#intrant_nom"/>
+        <Class IRI="#Intrant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#inventaire_date"/>
+        <Class IRI="#Inventaire"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#laboratoireReference_nature"/>
+        <Class IRI="#LaboratoireReference"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#laboratoireReference_nom"/>
+        <Class IRI="#LaboratoireReference"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#lastconnection"/>
+        <Class IRI="#Push_connection"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#lastping"/>
+        <Class IRI="#Push_connection"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#level"/>
+        <Class IRI="#Sync_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#lieuDit_nom"/>
+        <Class IRI="#LieuDit"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#lot_datePeremption"/>
+        <Class IRI="#Lot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#lot_numero"/>
+        <Class IRI="#Lot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#lot_quantite"/>
+        <Class IRI="#Lot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#medicament_code"/>
+        <Class IRI="#Medicament"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#medicament_designation"/>
+        <Class IRI="#Medicament"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#medicament_estMedicamentAntituberculeux"/>
+        <Class IRI="#Medicament"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#outBox_message"/>
+        <Class IRI="#OutBox"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#patient_age"/>
+        <Class IRI="#Patient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#patient_dateNaissance"/>
+        <Class IRI="#Patient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#patient_identifiant"/>
+        <Class IRI="#Patient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#patient_nom"/>
+        <Class IRI="#Patient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#patient_pacNom"/>
+        <Class IRI="#Patient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#patient_pacTelephoneUn"/>
+        <Class IRI="#Patient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#patient_profession"/>
+        <Class IRI="#Patient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#patient_sexe"/>
+        <Class IRI="#Patient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#patient_telephoneDeux"/>
+        <Class IRI="#Patient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#patient_telephoneUn"/>
+        <Class IRI="#Patient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#personnel_actif"/>
+        <Class IRI="#Personnel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#personnel_dateArrivee"/>
+        <Class IRI="#Personnel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#personnel_dateDepart"/>
+        <Class IRI="#Personnel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#personnel_dateNaissance"/>
+        <Class IRI="#Personnel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#personnel_niveau"/>
+        <Class IRI="#Personnel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#personnel_nom"/>
+        <Class IRI="#Personnel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#priseMedicamenteuse_dateEffective"/>
+        <Class IRI="#PriseMedicamenteuse"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#qualification_code"/>
+        <Class IRI="#Qualification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#qualification_nom"/>
+        <Class IRI="#Qualification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ravitaillement_dateArrivee"/>
+        <Class IRI="#Ravitaillement"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ravitaillement_dateDepart"/>
+        <Class IRI="#Ravitaillement"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#reception_dateReception"/>
+        <Class IRI="#Reception"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#regime_dureeTraitement"/>
+        <Class IRI="#Regime"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#regime_nom"/>
+        <Class IRI="#Regime"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#regime_poidsMax"/>
+        <Class IRI="#Regime"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#regime_poidsMin"/>
+        <Class IRI="#Regime"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#regime_type"/>
+        <Class IRI="#Regime"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#region_code"/>
+        <Class IRI="#Region"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#region_nom"/>
+        <Class IRI="#Region"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rendezVous_dateRendezVous"/>
+        <Class IRI="#RendezVous"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rendezVous_honore"/>
+        <Class IRI="#RendezVous"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sendDate"/>
+        <Class IRI="#Sync_session"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#smsPredefini_message"/>
+        <Class IRI="#SmsPredefini"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#smsPredefini_objet"/>
+        <Class IRI="#SmsPredefini"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#smsPredefini_type"/>
+        <Class IRI="#SmsPredefini"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sortieLot_quantite"/>
+        <Class IRI="#SortieLot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#status"/>
+        <Class IRI="#Push_connection"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#status"/>
+        <Class IRI="#Sync_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#terminal"/>
+        <Class IRI="#Push_connection"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#terminal"/>
+        <Class IRI="#Sync_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#terminalID"/>
+        <Class IRI="#Sync_session"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#ArriveePersonnel_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#CandidatureFormation_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#CasIndex_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#CasTuberculose_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#Commande_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#DepartPersonnel_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#DetailCommandeIntrant_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#DetailCommandeMedicament_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#DetailInventaire_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#DetailRavitaillement_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#DetailReceptionIntrant_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#DetailReceptionMedicament_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#DistrictSante_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#EntreeLot_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#ExamenATB_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#ExamenBiologique_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#ExamenMicroscopie_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#ExamenSerologie_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#Formation_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#HorsUsage_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#Intrant_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#Inventaire_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#LaboratoireReference_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#LieuDit_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#Lot_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#Medicament_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#OutBox_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#Patient_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#Personnel_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#PriseMedicamentRegime_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#PriseMedicamenteuse_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#Qualification_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#Ravitaillement_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#Reception_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#Regime_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#Region_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#RendezVous_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#SmsPredefini_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#SortieLot_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#TransfertReference_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#Tutoriel_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#traceid"/>
+        <Class IRI="#Utilisateur_bck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#transfertReference_dateArrivee"/>
+        <Class IRI="#TransfertReference"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#transfertReference_dateDepart"/>
+        <Class IRI="#TransfertReference"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#transfertReference_nature"/>
+        <Class IRI="#TransfertReference"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tutoriel_nom"/>
+        <Class IRI="#Tutoriel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tutoriel_reference"/>
+        <Class IRI="#Tutoriel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tutoriel_type"/>
+        <Class IRI="#Tutoriel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#utilisateur_dateNaissance"/>
+        <Class IRI="#Utilisateur"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#utilisateur_nom"/>
+        <Class IRI="#Utilisateur"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#utilisateur_profession"/>
+        <Class IRI="#Utilisateur"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#actiondate"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#actiontype"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#arriveePersonnel_dateArrivee"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#beNotified"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#candidatureFormation_approuveeGTC"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#candidatureFormation_approuveeRegion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#casIndex_typeRelation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#casTuberculose_dateDebutTraitement"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#casTuberculose_formeMaladie"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#casTuberculose_typePatient"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#centreDiagTrait_nom"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#commande_date"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#connectionDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#create"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#created"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#createdby"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#delete"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#deleted"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#departPersonnel_dateDepart"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#detailCommandeIntrant_quantiteEnStock"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#detailCommandeIntrant_quantiteRequise"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#detailCommandeMedicament_quantiteEnStock"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#detailCommandeMedicament_quantiteRequise"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#detailInventaire_quantiteReelle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#detailInventaire_quantiteTheorique"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#directaccess"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#disconnectionDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#districtSante_nom"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#entreeLot_quantite"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#examenATB_dateExamen"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#examenATB_raisonDepistage"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#examenATB_resultat"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#examenBiologique_date"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#examenBiologique_poids"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#examenMicroscopie_date"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#examenMicroscopie_raisonDepistage"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#examenMicroscopie_resultat"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#examenSerologie_dateTest"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#examenSerologie_nature"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#examenSerologie_resultatCD4"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#examenSerologie_resultatVIH"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#export"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#formation_dateDebut"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#formation_effectuee"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#formation_libelle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#formation_lieu"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#horsUsage_type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#initDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#intrant_identifiant"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#intrant_nom"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#inventaire_date"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#laboratoireReference_nature"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#laboratoireReference_nom"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#lastconnection"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#lastping"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#level"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#lieuDit_nom"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#lot_datePeremption"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#lot_numero"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#lot_quantite"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#medicament_code"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#medicament_designation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#medicament_estMedicamentAntituberculeux"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#modified"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#modifiedby"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#modifiedfrom"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#outBox_message"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#patient_age"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#patient_dateNaissance"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#patient_identifiant"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#patient_nom"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#patient_pacNom"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#patient_pacTelephoneUn"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#patient_profession"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#patient_sexe"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#patient_telephoneDeux"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#patient_telephoneUn"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#personnel_actif"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#personnel_dateArrivee"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#personnel_dateDepart"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#personnel_dateNaissance"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#personnel_niveau"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#personnel_nom"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#priseMedicamenteuse_dateEffective"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#qualification_code"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#qualification_nom"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ravitaillement_dateArrivee"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ravitaillement_dateDepart"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#reception_dateReception"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#regime_dureeTraitement"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#regime_nom"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#regime_poidsMax"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#regime_poidsMin"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#regime_type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#region_code"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#region_nom"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#rendezVous_dateRendezVous"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#rendezVous_honore"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sendDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#smsPredefini_message"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#smsPredefini_objet"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#smsPredefini_type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sortieLot_quantite"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#status"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#terminal"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#terminalID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#traceid"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#transfertReference_dateArrivee"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#transfertReference_dateDepart"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#transfertReference_nature"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tutoriel_nom"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tutoriel_reference"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tutoriel_type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#uploaddate"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#utilisateur_dateNaissance"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#utilisateur_nom"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#utilisateur_profession"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.1.20160306-0033) https://github.com/owlcs/owlapi -->
+
+

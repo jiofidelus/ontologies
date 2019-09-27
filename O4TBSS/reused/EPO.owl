@@ -1,0 +1,1475 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/r43nycge.owl#"
+     xml:base="http://ontofox.hegroup.org/r43nycge.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bfo="http://www.ifomis.org/bfo/1.1#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:span="http://www.ifomis.org/bfo/1.1/span#"
+     xmlns:snap="http://www.ifomis.org/bfo/1.1/snap#">
+    <owl:Ontology rdf:about="http://www.uy1.uninet.cm/azanzi/ontologies/2019/O4TBSS/reused/epo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+        <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">
+The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)
+</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:http://purl.obolibrary.org/obo/obi</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+        <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Bill Bug</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000281</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">has curation status</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">
+	The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.
+	</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:http://purl.obolibrary.org/obo/obi</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <obo:IAO_0000111 xml:lang="en">definition editor</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">
+Name of editor entering the definition in the file. The definition editor is a point of contact for information regarding the term. The definition editor may be, but is not always, the author of the definition, which may have been worked upon by several people
+</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:http://purl.obolibrary.org/obo/obi</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">definition editor</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label>alternative term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">
+formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007
+</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w
+</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:http://purl.obolibrary.org/obo/obi</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">definition source</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <obo:IAO_0000111 xml:lang="en">imported from</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">
+	For external terms/classes, the ontology from which the term was imported
+	</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:http://purl.obolibrary.org/obo/obi</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000001">
+        <obo:IAO_0000115>A quantity (such as the mean or variance) that characterizes a statistical population and that can be estimated by calculations from sample data</obo:IAO_0000115>
+        <obo:IAO_0000119>WordNet</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>parameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000009"/>
+        <obo:IAO_0000115>residues that result from evaporation of fluid from droplets emitted by an infected host. Droplet nuclei also may be created purposely by a variety of atomizing devices, or accidentally, as in microbiology laboratories or in abattoirs,rendering plants, or autopsy rooms. They usually remain suspended in the air for long periods.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>droplet nuclei-based transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000009"/>
+        <obo:IAO_0000115>The small particles of widely varying size that may arise from soil (fungus spores) or from clothes, bedding, or contaminated floors.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>dust-based transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000010"/>
+        <obo:IAO_0000115>Transmission of a disease agent (infectious pathogen, toxic chemical, etc.) from a source that is common to those who acquire the disease. Common vehicles include air, water, food, injected substances. Legionellosis is an example of common vehicle spread in air that has passed through air conditioning equipment contaminated by the causal organism. HIV disease and hepatitis B and C can be spread among illicit drug users by the common vehicle of contaminated needles and syringes. Cholera and many other waterborne diseases are spread by the common vehicle of
+contaminated water.</obo:IAO_0000115>
+        <obo:IAO_0000118>common vehicle spread</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>common vehicle transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000028">
+        <obo:IAO_0000115>Reduction of case transmission to a predetermined very low level; e.g., elimination of tuberculosis as a public health problem was defined by the WHO (1991) as reduction of prevalence to a level below one case per million population. Compare eradication (of disease).</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>elimination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000029">
+        <obo:IAO_0000115>The presence of an infectious, toxic, or otherwise harmful agent (radioactive material, biological or chemical compounds) on or in the body, also on or in clothes, bedding, toys, medical devices, surgical instruments or dressings, other objects; in
+air, water, and food; or on buildings or land. Pollution may be deemed distinct from contamination: the agent causing the pollution or present in the polluted environment is noxious but not necessarily infectious. Contamination of a body
+surface does not imply a carrier state.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>contamination</rdfs:label>
+        <rdfs:seeAlso>http://purl.obolibrary.org/obo/TRANS_0000000</rdfs:seeAlso>
+        <rdfs:seeAlso>source of infection</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000030">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000007"/>
+        <obo:IAO_0000115>The transmission of infection by direct contact, droplet spread, or contaminated fomites. These are the modes of transmission specified by Fracastorius (1484-1553) in De Contagione (1546). Contemporary usage is sometimes looser, but use of this term is best restricted to description of infection transmitted by direct contact.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>contagion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000032">
+        <rdfs:label>communicable period</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000140"/>
+        <obo:IAO_0000115>Person(s) in direct contact or associated with a communicable disease case.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>primary contact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000140"/>
+        <obo:IAO_0000115>Person(s) in contact or associated with a primary contact.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>secondary contact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000036">
+        <obo:IAO_0000115>Termination of all transmission of infection by extermination of the infectious agent through surveillance and containment. Eradication, as in the instance of smallpox, is based on the joint activities of control and surveillance. Regional eradication has been successful with poliomyelitis and in some countries appears close to succeeding for measles. The term elimination is sometimes used to describe
+eradication of diseases such as measles from a large geographic region or political jurisdiction. In 1992, the WHO put it this way: &quot;Eradication is defined as achievement of a status whereby no further cases of a disease occur anywhere, and continued control measures are unnecessary.&quot; Smallpox was eradicated in 1977, based on joint control and surveillance activities.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>erradication (of disease)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000039">
+        <obo:IAO_0000115>Proximity and/or contact with a source of a disease agent in such a manner that
+effective transmission of the agent or harmful effects of the agent may occur.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>exposure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000041">
+        <obo:IAO_0000115>Separation, for the period of communicability, of infected persons or animals from others under such conditions as to prevent or limit the transmission of the infectious agent from those infected to those who are susceptible or who may spread the agent to others.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>isolation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115>The number of specified health events (disease onset, death, etc.) divided by the time at risk in a defined population over a specified time interval.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>absolute rate</rdfs:label>
+        <rdfs:seeAlso>http://purl.obolibrary.org/obo/EPO_0000064</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000062"/>
+        <obo:IAO_0000115>The hazard rate of the occurrence of death at a point in time t the limit as delta t approaches zero - of the probability that
+an individual alive at time t will die by time t + delta t, divided by delta t. Distinct from cumulative death rate.</obo:IAO_0000115>
+        <obo:IAO_0000118>actuarial death rate</obo:IAO_0000118>
+        <obo:IAO_0000118>actuarial rate</obo:IAO_0000118>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>force of mortality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000062"/>
+        <obo:IAO_0000115>The proportion of a group that dies over a specified time interval. It is the incidence proportion of death. This may refer to all deaths or to deaths from a specific cause or causes. If follow-up is not complete on all persons, the proper estimation of this rate requires the use of methods that take account of censoring. Distinct from force of mortality.
+</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>cumulative death rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000132"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115>The percentage of persons 15 years of age and over who can read and write</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>adult literacy rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000132"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115>A rate for a specified age group. The numerator and denominator refer to the same age group.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>age-specific rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000133"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115>The proportion of a group that experiences the outcome under study over a given period (e.g., the period of an epidemic). This &quot;rate&quot; can be determined empirically by identifying clinical cases and/or by means of seroepidemiology. It also applies in noninfectious settings (e.g., mass poisonings). Because its time dimension is uncertain or arbitrarily decided, it should probably not be described as a rate.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>attack rate</rdfs:label>
+        <rdfs:seeAlso>Reed-Frost model</rdfs:seeAlso>
+        <rdfs:seeAlso>http://purl.obolibrary.org/obo/EPO_0000075</rdfs:seeAlso>
+        <rdfs:seeAlso>http://purl.obolibrary.org/obo/EPO_0000092</rdfs:seeAlso>
+        <rdfs:seeAlso>mass action principle</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000133"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115>The proportion of the rate (risk) of a disease or other outcome in exposed individuals that can be attributed to the exposure. This measure is estimated by subtracting the rate (risk) of the outcome (usually, incidence or mortality) among the unexposed from the rate (risk) among the exposed individuals; this estimate assumes that causes other than the one under investigation have had equal effects on the exposed and unexposed groups. Unfortunately, this term has been used to denote a number of different concepts, including the attributable fraction in the population, the attributable fraction among the exposed, the population excess rate, and the rate difference.</obo:IAO_0000115>
+        <obo:IAO_0000118>attributable risk</obo:IAO_0000118>
+        <obo:IAO_0000118>causal rate difference</obo:IAO_0000118>
+        <obo:IAO_0000118>causal risk difference</obo:IAO_0000118>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>attributable rate</rdfs:label>
+        <rdfs:seeAlso>absolute risk reduction</rdfs:seeAlso>
+        <rdfs:seeAlso>impact numbers</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000132"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115>A summary rate based on the number of live births in a population over a given period, usually 1 year.</obo:IAO_0000115>
+        <obo:IAO_0000118>birth rate</obo:IAO_0000118>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <oboInOwl:hasDbXref>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Birth_Rate</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://purl.bioontology.org/ontology/MSH/D001723</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://www.ebi.ac.uk/EFO/EFO_0004804</oboInOwl:hasDbXref>
+        <rdfs:label>birthrate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000133"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115>The proportion of cases of a specified condition that are fatal within a specified time.This definition can lead to paradox when more persons die of the disease than develop it during a given period. For instance, chemical poisoning that is slowly but inexorably
+fatal may cause many persons to develop the disease over a relatively short period of time, but the deaths may not occur until some years later and may be spread over a period of years during which there are no new cases. Thus, in calculating the case fatality rate, it is necessary to acknowledge that the time dimension varies: it may be brief (e.g., covering only the period of stay in a hospital); of finite duration (e.g., 1 year); or of longer duration still. The term case fatality rate is then better replaced by a term such as survival rate or by the use of a survivorship table.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <oboInOwl:hasDbXref>http://purl.bioontology.org/ontology/SNOMEDCT/409653003</oboInOwl:hasDbXref>
+        <rdfs:label>case fatality rate</rdfs:label>
+        <rdfs:seeAlso>http://purl.obolibrary.org/obo/EPO_0000050</rdfs:seeAlso>
+        <rdfs:seeAlso>survivorship study</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115>A rate that specifies events, such as deaths, according to their cause.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>cause-specific rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000062"/>
+        <obo:IAO_0000115>The number of deaths of children age 1â€“4 years in a given year per 1000 children in this age group. This is a useful measure of the burden of preventable communicable diseases in the child population.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>child death rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000062"/>
+        <obo:IAO_0000115>Health indicator used by the United Nations Children&apos;s Fund (formerly the United Nations International Children&apos;s
+Emergency Fund, or UNICEF), the United Nationd Development Programme (UNDP), and other international agencies. It is computed as an annual rate by dividing the death count of children under age 5 by the count of live births in the same year and expressing the result per thousand. TherEFOre it is not an age-specific mortality rate, since the denominator is not the size of the child population under age 5. This rate is preferable to the child death rate, which is more difficult to determine in communities where the age of young children may not be known precisely.</obo:IAO_0000115>
+        <obo:IAO_0000118>under-5 mortality rate</obo:IAO_0000118>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>child mortality rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115>The proportion or percentage of persons in a survey for whom complete data are available for analysis.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>completion rate</rdfs:label>
+        <rdfs:seeAlso>http://purl.obolibrary.org/obo/EPO_0000139</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000133"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115>The number or proportion of a group (cohort) of people who experience the onset of a health-related event during a specified time interval; this interval is generally the same for all members of the group, but, as in lifetime incidence, it may vary from person to person without reference to age.</obo:IAO_0000115>
+        <obo:IAO_0000118>average risk</obo:IAO_0000118>
+        <obo:IAO_0000118>cumulative incidence rate</obo:IAO_0000118>
+        <obo:IAO_0000118>incidence proportion</obo:IAO_0000118>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>cumulative incidence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000132"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115>An estimate of the portion of a population that dies during a specified period. The numerator is the number of persons dying during the period; the denominator is the number in the population, usually estimated as the midyear population. The death rate in a population is generally calculated by the following formula: (Number of deaths during a specified period/ Number of persons at risk of dying during the period) x 10^n. This rate is an estimate of the person-time death rate, i.e., the death rate per 10^n person/years. If the rate is low, it is also a good estimate of the cumulative death rate. This rate is also called the crude death rate.</obo:IAO_0000115>
+        <obo:IAO_0000118>mortality rate</obo:IAO_0000118>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <oboInOwl:hasDbXref>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Death_Rate</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://purl.bioontology.org/ontology/SNOMEDCT/409651001</oboInOwl:hasDbXref>
+        <rdfs:label>death rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115>A measure of costs, benefits, and outcomes in relation to time that
+allows for the fact that money (and health) have greater value in the present than at some future time. A term used mainly in economics and in clinical decision analysis.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>discount rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115>The number of people experiencing an event as a proportion of the number of people in the population or relative to the person-time experience of the population.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>event rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000132"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115>A measure of population growth (in the absence
+of migration) comprising addition of newborns to the population and subtraction of
+deaths. The result, known as natural rate of increase, is calculated as
+((Live births during the yearâ€”deaths during the year)/Midyear population)Ã— 1000
+Alternatively, it is the difference between crude birthrate and crude death rate.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>growth rate of population</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000071">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000133"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115>The rate at which new spells of illness occur in a population. A term
+applied principally to short-term spells of illness, such as acute respiratory infections,
+and preferred by some epidemiologists because an annual incidence rate for such conditions
+may exceed the numbers in the population at risk.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>inception rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000133"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115>The incidence rate in the exposed group divided by the incidence
+rate in the unexposed group. Often referred to as the rate ratio.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>incidence rate ratio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000062"/>
+        <obo:IAO_0000115>A measure of the yearly rate of deaths in children less than 1 year old. The denominator is the number of live births in the same year.
+Defined as
+Infant Mortality rate=(number of deaths in a year of children less than 1 year of age/number of live births in the same year)x 1000
+This is often cited as a useful indicator of the level of health in a community. The denominator is an approximation of the population at risk.</obo:IAO_0000115>
+        <obo:IAO_0000118>IMR</obo:IAO_0000118>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>infant mortality rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000133"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115>The incidence rate of manifest plus inapparent infections (the latter
+determined by seroepidemiology).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>infection rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000076">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/EPO_0000077"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000484"/>
+        <obo:IAO_0000115>A theoretical measure of the number of new cases that occur per unit of population-time (e.g., person-years at risk). This is a measure of the occurrence of disease at a point in time, t, defined mathematically as the limit, as delta t approaches zero, of
+(Probability that a person well at time t will develop the disease in the interval t + delta t)/delta t
+The average value of this quantity over the interval t to (t + delta t) can be estimated as (Incident cases observed from t to (t + delta t))/(Number of person-time units of experience observed from t to (t + delta t)</obo:IAO_0000115>
+        <obo:IAO_0000118>hazard rate</obo:IAO_0000118>
+        <obo:IAO_0000118>instantaneous incidence rate</obo:IAO_0000118>
+        <obo:IAO_0000118>person-time incidence rate</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>force of morbidity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000484"/>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>instantaneous incidence rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000079">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/IDO_0000484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000133"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115>A term, preferably avoided, used to refer to the incidence rate and sometimes (incorrectly) to the prevalence of disease.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <oboInOwl:hasDbXref>http://www.semanticweb.org/ontologies/2010/5/22/Ontology1277229984000.owl#HPI:0000132</oboInOwl:hasDbXref>
+        <rdfs:label>morbidity rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000132"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115>The net effect of immigration and emigration on an area&apos;s population, expressed as an increase or decrease per 1000 population of the area in a given year.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>net migration rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000133"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115>A measure of the
+incidence rate of an event (e.g., a disease or death) in a population at risk, given by
+Number of events occurring during the interval/
+Number of person-time units at risk observed
+during the interval</obo:IAO_0000115>
+        <obo:IAO_0000118>interval incidence density</obo:IAO_0000118>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>person-time incidence rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000132"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115>A measure of the number of disease cases associated
+with exposure to a putative cause of the disease in the population. It is the difference
+between the rates of disease in the entire population and among the nonexposed.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>population excess rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115>The absolute difference between two rates; for example, the difference in incidence rate between a population group exposed to a causal factor and a population group not exposed to the factor:
+RD= Ie - Iu
+where Ie = incidence rate among exposed and Iu = incidence rate among unexposed. In comparisons of exposed and unexposed groups, the term excess rate may be used as a synonym for rate difference.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>rate difference</rdfs:label>
+        <rdfs:seeAlso>http://purl.obolibrary.org/obo/EPO_0000086</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115>The ratio of two rates; e.g., the rate in an exposed population divided by the rate in an unexposed population:
+Rate ratio= Ie/Iu
+where Ie is the incidence rate among the exposed and Iu is the incidence rate among the unexposed.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>rate ratio</rdfs:label>
+        <rdfs:seeAlso>http://purl.obolibrary.org/obo/EPO_0000097</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000133"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115 xml:lang="en"> The number of cases of an infection that occur among contacts within the incubation period following exposure to a primary case in relation to the total number of exposed contacts; the denominator is restricted to susceptible contacts when these can be determined. The secondary attack rate is a measure of contagiousness and is useful in evaluating control measures. </obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>secondary attack rate</rdfs:label>
+        <rdfs:seeAlso>http://purl.obolibrary.org/obo/EPO_0000050</rdfs:seeAlso>
+        <rdfs:seeAlso>http://purl.obolibrary.org/obo/EPO_0000051</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115 xml:lang="en"> A term used in malaria epidemiology to define the frequency of enlarged spleens detected on survey of a population in which malaria is prevalent. In association with the Hackett spleen classification, it summarizes the severity of malaria endemicity. </obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>spleen rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115 xml:lang="en"> A set of techniques, based on weighted averaging, used to remove as much as possible the effects of differences in age or other confounding variables in comparing two or more populations. The common method uses weighted averaging of rates specific for age, sex, or some other potential confounding variable(s) according to some specified distribution of these variables.  </obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>standardization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000094"/>
+        <obo:IAO_0000115 xml:lang="en"> The specific rates in a study population are averaged, using as weights the distribution of a specifi ed standard population. The directly standardized rate represents what the crude rate would have been in the study population if that population had the same distribution as the standard population with respect to the variable(s) for which the adjustment or standardization was carried out. Inverse probability weighting can be seen as a generalization. </obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>direct standardization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000094"/>
+        <obo:IAO_0000115 xml:lang="en"> This is used to compare study populations for which the specifi c rates are either statistically unstable or unknown. The specifi c rates in the standard population are averaged, using as weights the distribution of the study population. The ratio of the crude rate for the study population to the weighted average so obtained is the standardized mortality (or morbidity) ratio, or SMR. The indirectly standardized rate itself is the product of the SMR and the crude rate for the standard population, but this product is rarely used in etiological studies. A problem that arises with indirect standardization is that different SMRs are based on different weighting schemes (one for each study population) and so are not fully standardized for comparison to one another. As a result, comparisons of SMRs (or indirectly standardized rates) may remain partially confounded by the adjustment variables</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>indirect standardization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000097">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000102"/>
+        <obo:IAO_0000115 xml:lang="en"> 1. The ratio of the risk of an event among the exposed to the risk among the unexposed; this usage is synonymous with risk ratio.
+2. The ratio of the incidence rate in the exposed to the incidence rate in the unexposed (i.e., the rate ratio). It is not synonymous with odds ratio (OR). In some biostatistical articles, it has been used for the ratio of forces of morbidity. The use of relative risk for OR arises from the fact that for “rare” (infrequent) diseases, the two quantities may approximate one another. For common occurrences (e.g., neonatal mortality in infants under 1500-g birth weight), the approximations do not hold.
+3. Let ARC be the absolute risk of events in the control group and ART the absolute risk of events in the treatment group; then RR = ARC / ART = 1 – RR reduction (RRR). Example: an RR of 0.7 equals an RRR of 0.3, i.e., a 30% reduction in the RR of the outcome in the treatment group compared with the control group. See also absolute risk (AR); absolute risk reduction (ARR); control group; risk difference.</obo:IAO_0000115>
+        <obo:IAO_0000118>RR</obo:IAO_0000118>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>relative risk</rdfs:label>
+        <rdfs:seeAlso>http://purl.obolibrary.org/obo/EPO_0000108</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000133"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115 xml:lang="en">  The proportion of survivors in a group (e.g., of patients studied and followed over a specified period). The proportion of persons in a specified group alive at the beginning of the time interval (e.g., a 5-year period) who survive to the end of the interval. It is equal to 1 minus the cumulative death rate. May be studied by current or cohort life table methods. </obo:IAO_0000115>
+        <obo:IAO_0000118> cumulative survival rate</obo:IAO_0000118>
+        <obo:IAO_0000118> survival proportion</obo:IAO_0000118>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>survival rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115 xml:lang="en"> See sensitivity and specificity. </obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>true-positive rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115 xml:lang="en"> See sensitivity and specificity. </obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>true-negative rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000102">
+        <obo:IAO_0000115>The value obtained by dividing one quantity by another. rate, proportion, and percentage are types of ratios. The numerator of a proportion is included in the population defined by the denominator, whereas in other types of ratios numerator and denominator are distinct quantities, neither being included in the other. The dimensionality of a ratio is obtained through algebraic cancellation, summation, etc., of the dimensionalities of its numerator and denominator terms. Both counted and measured values may be included in the numerator and in the denominator. There are no general restrictions on the dimensionalities or ranges of ratios, but there are in some types of ratios (e.g., proportion, prevalence). Ratios are sometimes expressed as percentages (e.g., standardized mortality ratio). In these cases, the value may exceed 100. </obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <oboInOwl:hasDbXref>http://purl.oboInOwllibrary.org/oboInOwl/PATO_0001470</oboInOwl:hasDbXref>
+        <rdfs:label>ratio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000102"/>
+        <obo:IAO_0000115 xml:lang="en"> See cost-benefit analysis. </obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>benefit-cost ratio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000102"/>
+        <obo:IAO_0000115 xml:lang="en"> See odds ratio. </obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>cross-product ratio</rdfs:label>
+        <rdfs:seeAlso>http://purl.obolibrary.org/obo/EPO_0000119</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000102"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000133"/>
+        <obo:IAO_0000115 xml:lang="en"> The ratio of the cumulative incidence rate in the exposed to the cumulative incidence rate in the unexposed. </obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>cumulative incidence ratio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000119"/>
+        <obo:IAO_0000115 xml:lang="en"> See odds ratio.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>disease odds ratio</rdfs:label>
+        <rdfs:seeAlso>http://purl.obolibrary.org/obo/EPO_0000119</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000119"/>
+        <obo:IAO_0000115 xml:lang="en">The exposure-odds ratio for a set of case-control or cross-sectional data is the ratio of the odds in favor of exposure among the cases (a/b) to the odds in favor of exposure among noncases (c/d). </obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>exposure-odds ratio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000102"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000133"/>
+        <obo:IAO_0000115 xml:lang="en"> The ratio of rates at which persons in the case and control groups of a case-control study are exposed to the risk factor (or to the protective factor) of interest. </obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>exposure ratio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000102"/>
+        <obo:IAO_0000115 xml:lang="en"> The ratio of two incidence densities. </obo:IAO_0000115>
+        <obo:IAO_0000118>idr</obo:IAO_0000118>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>incidence-density ratio</rdfs:label>
+        <rdfs:seeAlso>http://purl.obolibrary.org/obo/EPO_0000090</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000102"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000133"/>
+        <obo:IAO_0000115 xml:lang="en"> The incidence rate in the exposed group divided by the inci­dence rate in the unexposed group. Often referred to as the rate ratio. </obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>incidence rate ratio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000102"/>
+        <obo:IAO_0000115 xml:lang="en"> Likelihood ratios are used to appraise screening and diagnostic tests. See also sensitivity and pecificity. </obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>likelihood ratio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000102"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000133"/>
+        <obo:IAO_0000115 xml:lang="en"> See cancer mortality:incidence ratio. </obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>mortality:incidence ratio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000102"/>
+        <obo:IAO_0000115 xml:lang="en">  The ratio of two odds. The term odds is defined differently according to the situation under discussion. Consider the following notation for the distribution of a binary exposure and a disease in a population or a sample:  Exposed  Unexposed  Disease  a  b  No disease  c  d  The odds ratio (cross-product ratio) is ad/bc. The exposure-odds ratio for a set of case-control or cross-sectional data is the ratio of the odds in favor of exposure among the cases (a/b) to the odds in favor of exposure among noncases (c/d).This reduces to ad/bc. In a case-control study with incident cases, unbiased subject selection, and a “rare” (uncommon) disease, ad/bc is an approximate estimate of the risk ratio; the accuracy of this approximation is proportional to the cumulative incidence of the disease. With incident cases, unbiased subject selection, and density sampling of controls, ad/bc is an estimate of the ratio of the person-time incidence rates (force of morbidity) in the exposed and unexposed (no rarity assumption is required for this). The disease-odds ratio for a cohort or cross-sectional study is the ratio of the odds in favor of disease among the exposed (a/c) to the odds in favor of disease among the unexposed (b/d).This reduces to ad/bc and hence is equal to the exposure-odds ratio for the cohort or cross section. The prevalence-odds ratio refers to an odds ratio derived cross-sectionally, as, for example, an odds ratio derived from studies of prevalent (rather than incident) cases. The risk-odds ratio is the ratio of the odds in favor of getting disease if exposed to the odds in favor of getting disease if not exposed. The odds ratio derived from a cohort study is an estimate of this ratio. See also case-control study and rare-disease assumption. </obo:IAO_0000115>
+        <obo:IAO_0000118> cross-product ratio</obo:IAO_0000118>
+        <obo:IAO_0000118> relative odds</obo:IAO_0000118>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>odds ratio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000120">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000119"/>
+        <obo:IAO_0000115 xml:lang="en"> The odds of deaths from a specified condition in a de.ned population divided by the odds of deaths expected from this Proportional mortality ratio 198 condition in a standard population, usually expressed either on an age-sex-specific basis or sex-specific after age adjustment. Often preferred to the proportional mortality ratio on the grounds that it tends to better approximate the ratio of mortality rates in the two populations. </obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>proportional mortality-odds ratio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000102"/>
+        <obo:IAO_0000115 xml:lang="en"> The proportion of observed deaths from a specified condition in a de.ned population divided by the proportion of deaths expected from this condition in a standard population, usually expressed either on an age-sex­-specific basis or sex-specific after age adjustment. Unlike the standardized mortality ratio, it does not require data on the age composition of the population but only on the deaths.The acronym PMR is preferably avoided because the same initial letters can stand for perinatal mortality rate. </obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>proportional mortality ratio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000102"/>
+        <obo:IAO_0000115 xml:lang="en"> See odds ratio. </obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>rate-odds ratio</rdfs:label>
+        <rdfs:seeAlso>http://purl.obolibrary.org/obo/EPO_0000119</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000102"/>
+        <obo:IAO_0000115 xml:lang="en"> The ratio of two rates; e.g., the rate in an exposed population divided by the rate in an unexposed population: IeRate ratio =Iu where I e is the incidence rate among the exposed and I u is the incidence rate among the unexposed. </obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>rate ratio</rdfs:label>
+        <rdfs:seeAlso>http://purl.obolibrary.org/obo/EPO_0000097</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000124">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000102"/>
+        <obo:IAO_0000115 xml:lang="en"> The results of a risk-benefit analysis expressed as the ratio of risks to benefits. </obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>risk-benefit ratio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000102"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000132"/>
+        <obo:IAO_0000115 xml:lang="en"> The ratio of one sex to the other. Usually de.ned as the ratio of males to females (or of the rates observed in males and females). </obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>sex ratio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000102"/>
+        <obo:IAO_0000115 xml:lang="en"> In statistics and signal processing, the ratio of explained variation to unexplained (error) variation. A jargon term for the relationship of pertinent . ndings to that which is extraneous or irrelevant or intrudes because measurement methods or other procedures are insuf. ciently sensitive. </obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>signal-to-noise ratio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000102"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000133"/>
+        <obo:IAO_0000115 xml:lang="en">  The ratio of the incident number of cases of a specified condition in the study population to the incident number that would be expected if the study population had the same incidence rate as a standard or other population for which the incidence rate is known; this ratio is usually expressed as a percentage. </obo:IAO_0000115>
+        <obo:IAO_0000118> standardized morbidity ratio</obo:IAO_0000118>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>standardized incidence ratio</rdfs:label>
+        <rdfs:seeAlso>http://purl.obolibrary.org/obo/EPO_0000095</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000102"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000132"/>
+        <obo:IAO_0000115 xml:lang="en"> The ratio of the number of deaths observed in the study group or population to the number that would be expected if the study population had the same specific rates as the standard population. Often multi­plied by 100. </obo:IAO_0000115>
+        <obo:IAO_0000118>smr</obo:IAO_0000118>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>standardized mortality ratio</rdfs:label>
+        <rdfs:seeAlso>http://purl.obolibrary.org/obo/EPO_0000095</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en"> A rate ratio in which the numerator and denomi­nator rates have been standardized (weighted) to the same (standard) population dis­tribution. </obo:IAO_0000115>
+        <obo:IAO_0000118>srr</obo:IAO_0000118>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>standardized rate ratio</rdfs:label>
+        <rdfs:seeAlso>http://purl.obolibrary.org/obo/EPO_0000094</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000102"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000132"/>
+        <obo:IAO_0000115 xml:lang="en"> The probability of surviving between one age and another; when computed for age groups, the ratios correspond to those of the person-years-lived function of a life table. </obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>survival ratio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000132">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000001"/>
+        <obo:IAO_0000115>A quantity (such as the mean or variance) that characterizes the demography of a population and that can be estimated by calculations from sample data</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>demographic parameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000133">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000001"/>
+        <obo:IAO_0000115>A quantity (such as the mean or variance) that characterizes epidemiological entities or events and that can be estimated by calculations from sample data</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>epidemiological parameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000041"/>
+        <obo:IAO_0000115>To prevent transmission of highly contagious or virulent infections
+that may be spread by both air and contact. The specifications include a private room and the use of masks, gowns, and gloves for all persons entering the room. Special ventilation requirements with the room at negative pressure to surrounding areas are desirable.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>strict isolation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000135">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000041"/>
+        <obo:IAO_0000115>For less highly transmissible or serious infections and diseases or conditions that are spread primarily by close or direct contact. A private room is indicated but patients infected with the same pathogen may share a room. Masks are indicated for those who come close to the patient, gowns are indicated if soiling is likely, and gloves are indicated for touching infectious material.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>contact isolation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000136">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000041"/>
+        <obo:IAO_0000115>To prevent transmission of infectious diseases over short distances through the air, a private room is indicated, but patients infected with the same organism may share a room. In addition to the basic requirements, masks are indicated for those who come in close contact with the patient; gowns and gloves are not indicated.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>respiratory isolation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000137">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000041"/>
+        <obo:IAO_0000115>For patients with pulmonary tuberculosis who have a positive sputum smear or chest x-rays that strongly suggest active tuberculosis. Specifications include use of a private room with special ventilation and closed door. Masks are used only if the patient is coughing and does not reliably and consistently cover the mouth. Gowns are used to prevent gross contamination of clothing. Gloves are not indicated.</obo:IAO_0000115>
+        <obo:IAO_0000118>AFB isolation</obo:IAO_0000118>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>tuberculosis isolation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115>The number of completed or returned survey instruments (questionnaires, interviews, etc.) divided by the total number of persons who would have been surveyed if all had participated. Usually expressed as a percentage. Nonresponse can have several causes, e.g., death, removal from the survey community, and refusal. See also bias; nonparticipants. </obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>response rate</rdfs:label>
+        <rdfs:seeAlso>http://purl.obolibrary.org/obo/EPO_0000060</rdfs:seeAlso>
+        <rdfs:seeAlso>http://purl.obolibrary.org/obo/EPO_0000068</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000140">
+        <obo:IAO_0000115>A person or animal that has been in such association with an infected person or animal or a contaminated environment as to have had opportunity to acquire the infection.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <rdfs:label>contact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000484 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000484">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000133"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
+        <obo:IAO_0000115>The rate at which new events occur in a population. The numerator is the number of new events that occur in a defined period or other physical span. The denominator is the population at risk of experiencing the event during this period, sometimes expressed as person-time; it may instead be in other units, such as passenger-miles. The incidence rate most often used in public health practice is calculated from the formula
+(Number of new events in specified period/Average number of persons exposed to risk during this period)x10^n 
+Strictly speaking, this ratio is neither a rate nor a proportion but is instead the rat emultiplied by the length of the specified period. If the period is a year, the ratio isnonetheless often called the annual incidence rate. The average size of the population isoften the estimated population size at the midperiod. The ratio divided by the length ofthe period is an estimate of the person-time incidence rate (i.e., the rate per 10^n person-years).If the ratio is small, as with many chronic diseases, it is also a good estimate of the cumulative incidence over the period (e.g., a year). If the number of new cases during a specified period is divided by the sum of the person-time units at risk for all persons during the period, the result is the person-time incidence rate.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <oboInOwl:hasDbXref>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Incidence_Rate</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://www.semanticweb.org/ontologies/2010/5/22/Ontology1277229984000.owl#HPI:0000126</oboInOwl:hasDbXref>
+        <rdfs:label>incidence rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000161">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000102"/>
+        <obo:IAO_0000115>A measure of the frequency of occurrence of a phenomenon. In epidemiology, demography, and vital statistics, a rate is an expression of the frequency with which an event occurs in a defi ned population, usually in a specified period of time. Physical units other than time may be used for constructing rates, however; for example, in accident epidemiology, deaths per passenger-mile is a more meaningful way of comparing modes of transportation. The use of rates rather than raw numbers is essential for comparison of experience between populations at different times, different places, or among different classes of persons. The components of a rate are the numerator, the denominator, the specified time in which events occur, and usually a multiplier, a power of 10, that converts the rate from an awkward fraction or decimal to a whole number. In vital statistics, Rate= number of events in specified period / average population during the period
+In epidemiology, the denominator is usually person-time. All rates are ratios, calculated by dividing a numerator (e.g., the number of deaths or newly occurring cases of a disease in a given period) by a denominator (e.g., the average population during that period). Some rates are proportions, where the numerator is contained within the denominator. Rate has several different usages in epidemiology: 1. As a wrong synonym for ratio, it refers to proportions as rates, as in the terms cumulative incidence rate or survival rate. Proportion and ratio are not synonyms for rate. 2. In other situations, rate refers only to ratios representing relative changes (actual or potential) in two quantities. This accords with the Oxford English Dictionary, which gives relative amount of variationâ€ among its defi nitions for rate. 3. Sometimes rate is further restricted to refer only to ratios representing changes over time. In this sense, the term prevalence rate is to be avoided, because prevalence cannot (and does not need to) be expressed as a change in time; of course, different prevalence estimates may vary, change, and be compared. In contrast, the force of mortality and the force of morbidity (hazard rate) are proper rates, for they can be expressed as the number of cases developing per unit time divided by the total size of the population at risk.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <oboInOwl:hasDbXref>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Rate</oboInOwl:hasDbXref>
+        <rdfs:label>rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000000">
+        <obo:IAO_0000115 xml:lang="en">Transmission of infectious agents. Any mechanism by which an infectious agent is spread from a source or reservoir to another person.</obo:IAO_0000115>
+        <obo:IAO_0000118>transmission process</obo:IAO_0000118>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/trans.owl"/>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0242781</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Transmission</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://purl.bioontology.org/ontology/MSH/D018562</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://purl.bioontology.org/ontology/MSH/Q000635</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://www.semanticweb.org/ontologies/2010/5/22/Ontology1277229984000.owl#HPI:0000182</oboInOwl:hasDbXref>
+        <rdfs:label>transmission of infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000000"/>
+        <obo:IAO_0000115>Direct and essentially immediate transfer of infectious agents to a receptive portal of entry through which human or animal infection may take place. This may be by direct contact such as touching, kissing, biting, or sexual intercourse or by the direct projection (droplet spread) of droplet spray onto the conjunctiva or the mucous membranes of the eyes, nose, or mouth. It may also be by direct exposure of susceptible
+tissue to an agent in soil, compost, or decaying vegetable matter or by the bite of a rabid animal. Transplacental transmission is another form of direct transmission.</obo:IAO_0000115>
+        <obo:IAO_0000118>direct</obo:IAO_0000118>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/trans.owl"/>
+        <oboInOwl:hasDbXref>http://purl.bioontology.org/ontology/MDR/10013045</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://www.semanticweb.org/ontologies/2010/5/22/Ontology1277229984000.owl#HPI:0000183</oboInOwl:hasDbXref>
+        <rdfs:label>direct transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000000"/>
+        <obo:IAO_0000118>indirect</obo:IAO_0000118>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/trans.owl"/>
+        <oboInOwl:hasDbXref>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Indirect_Contact_Transmission_Infection</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://purl.bioontology.org/ontology/MDR/10021714</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://www.semanticweb.org/ontologies/2010/5/22/Ontology1277229984000.owl#HPI:0000186</oboInOwl:hasDbXref>
+        <rdfs:label>indirect transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000001"/>
+        <obo:IAO_0000115>A mode of transmission of infection between an infected host and a susceptible host. Direct contact occurs when skin or mucous surfaces touch, as in shaking hands, kissing, and sexual intercourse.</obo:IAO_0000115>
+        <obo:IAO_0000115>touching, kissing, biting, or sexual intercourse</obo:IAO_0000115>
+        <obo:IAO_0000118>contact</obo:IAO_0000118>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/trans.owl"/>
+        <oboInOwl:hasDbXref>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Direct_Contact_Transmission_Infection</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://purl.bioontology.org/ontology/MDR/10021869</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://www.semanticweb.org/ontologies/2010/5/22/Ontology1277229984000.owl#HPI:0000184</oboInOwl:hasDbXref>
+        <rdfs:label>direct contact transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000001"/>
+        <obo:IAO_0000115>projection (droplet spread) of droplet spray onto the conjunctiva or the mucous membranes of the eyes, nose, or mouth.</obo:IAO_0000115>
+        <obo:IAO_0000118>droplet spread</obo:IAO_0000118>
+        <obo:IAO_0000118>droplet spread transmission</obo:IAO_0000118>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/trans.owl"/>
+        <oboInOwl:hasDbXref>http://www.semanticweb.org/ontologies/2010/5/22/Ontology1277229984000.owl#HPI:0000185</oboInOwl:hasDbXref>
+        <rdfs:label>direct projection transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000002"/>
+        <obo:IAO_0000115>The dissemination of microbial aerosols to a portal of entry, usually the respiratory tract. Microbial aerosols are suspensions in the air of particles consisting partially or wholly of microorganisms. Particles in the range of 1 to 5 Î¼m are easily drawn
+into the alveoli of the lungs and may be retained there. They may remain suspended in the air for long periods.</obo:IAO_0000115>
+        <obo:IAO_0000118>airborne</obo:IAO_0000118>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/trans.owl"/>
+        <oboInOwl:hasDbXref>http://purl.bioontology.org/ontology/MDR/10001534</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://www.semanticweb.org/ontologies/2010/5/22/Ontology1277229984000.owl#HPI:0000187</oboInOwl:hasDbXref>
+        <rdfs:label>airborne transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000002"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+Vehicle-borne transmission is an indirect transmission process during which the pathogen is indirectly transferred from a reservoir, source or host to another host by inanimate intermediary vehicle objects.
+</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/trans.owl"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transmission_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000010</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle-borne</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000010"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+Vehicle-borne fomite transmission is an indirect vehicle-borne transmission process during which the pathogen is indirectly transferred from a reservoir, source or host to another host by inanimate objects including: medical instruments, cloth, fur, metal or plastic utensils.
+</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/trans.owl"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transmission_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000011</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle-borne fomite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000010"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+Vehicle-borne ingestion transmission is an indirect vehicle-borne transmission process during which the pathogen is indirectly transferred from a reservoir, source or host to another host by ingestion of fluids or foods or food products including: food, water, milk, or meat products.
+</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/trans.owl"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transmission_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000012</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle-borne ingestion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000010"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+Vehicle-borne medical transmission is an indirect vehicle-borne transmission process during which the pathogen is indirectly transferred from a reservoir, source or host to another host by biological products including: blood, serum, plasma, tissue, or organs.
+</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/trans.owl"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transmission_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000013</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle-borne medical</rdfs:label>
+    </owl:Class>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/epo.owl"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.1.20160306-0033) https://github.com/owlcs/owlapi -->
+
