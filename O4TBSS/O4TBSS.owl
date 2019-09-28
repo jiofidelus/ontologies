@@ -25,13 +25,19 @@
         <Class IRI="#MycobacteriumTuberculosis"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Amikacin"/>
+        <DataProperty IRI="#hasProfession"/>
     </Declaration>
     <Declaration>
         <Class IRI="#3+_(many)"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Amikacin"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Unemployed"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasHonore"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Other"/>
@@ -100,6 +106,9 @@
         <Class IRI="#FDG-avid"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#TreatmentIssue"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Mycobacterium"/>
     </Declaration>
     <Declaration>
@@ -124,6 +133,9 @@
         <Class IRI="#Businessman"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#hasTBForm"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#LifestyleIssues"/>
     </Declaration>
     <Declaration>
@@ -142,6 +154,9 @@
         <Class IRI="#Builder"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasContact"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#BacteriaCultureResult"/>
     </Declaration>
     <Declaration>
@@ -152,6 +167,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Advocate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasType"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CabloDistributor"/>
@@ -190,10 +208,13 @@
         <Class IRI="#Informatician"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ExDrugAbuser"/>
+        <Class IRI="#Overdose"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Secondary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExDrugAbuser"/>
     </Declaration>
     <Declaration>
         <Class IRI="#TBDrugTakenFrequency"/>
@@ -262,16 +283,22 @@
         <Class IRI="#Chest_pain"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#MicroscopyNegativeTuberculosis"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#HealthDistrict"/>
     </Declaration>
     <Declaration>
         <Class IRI="#InitialTreatmentPhase"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Spacer_Tobacco_use"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Unable_to_determine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Spacer_Tobacco_use"/>
+        <DataProperty IRI="#hasWeight"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Conveyor"/>
@@ -304,13 +331,13 @@
         <Class IRI="#Comedian"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ExAlcoholUser"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Elevated_CRP"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Fatigue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExAlcoholUser"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Clinical_Cure"/>
@@ -319,10 +346,10 @@
         <Class IRI="#ExAlcoholic"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#AnatomicSource"/>
+        <Class IRI="#AtRiskMDRTuberculosis"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#AtRiskMDRTuberculosis"/>
+        <Class IRI="#AnatomicSource"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Indeterminate"/>
@@ -364,13 +391,13 @@
         <Class IRI="#Decorator"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#AfterRelapseTreatment"/>
+        <Class IRI="#Weakness"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Nationality"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Weakness"/>
+        <Class IRI="#AfterRelapseTreatment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Headache"/>
@@ -379,13 +406,13 @@
         <Class IRI="#AFBStainingResult"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#AlcoholProductUse"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#TaxiDriver"/>
     </Declaration>
     <Declaration>
         <Class IRI="#AtRiskXDRTuberculosis"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#AlcoholProductUse"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Contractual"/>
@@ -395,6 +422,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Trader"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasExam"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Levofloxacin"/>
@@ -415,7 +445,13 @@
         <Class IRI="#ChildRegiment"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#hasResult"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#HE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PoliceOfficer"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Weight_loss_without_dieting"/>
@@ -424,13 +460,10 @@
         <Class IRI="#RHE"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PoliceOfficer"/>
+        <Class IRI="#Brewer"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Resourceful"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Brewer"/>
     </Declaration>
     <Declaration>
         <Class IRI="#BacterialCulture"/>
@@ -448,10 +481,10 @@
         <Class IRI="#Porter"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MotoBikeDriver"/>
+        <Class IRI="#Ethambutol"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Ethambutol"/>
+        <Class IRI="#MotoBikeDriver"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Treatment_interrupted"/>
@@ -466,10 +499,10 @@
         <Class IRI="#NonTobaccoUser"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cure"/>
+        <Class IRI="#MycobacteriumSpecies"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MycobacteriumSpecies"/>
+        <Class IRI="#Cure"/>
     </Declaration>
     <Declaration>
         <Class IRI="#InterferonGammaResult"/>
@@ -478,10 +511,13 @@
         <Class IRI="#Driver"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Capreomycin"/>
+        <Class IRI="#Loss_of_appetite"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Loss_of_appetite"/>
+        <ObjectProperty IRI="#hasCandidate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Capreomycin"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ImagingResult"/>
@@ -493,10 +529,10 @@
         <Class IRI="#Malaise"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#NotAttendSchool"/>
+        <Class IRI="#ndeterminate"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ndeterminate"/>
+        <Class IRI="#NotAttendSchool"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Electrician"/>
@@ -532,6 +568,9 @@
         <Class IRI="#English"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#hasForm"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#ExTobaccoUser"/>
     </Declaration>
     <Declaration>
@@ -539,6 +578,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#ConfirmedMDRTuberculosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MicroscopyPositiveTuberculosis"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Alcoholic"/>
@@ -556,6 +598,9 @@
         <Class IRI="#Spacer_Drug_and_chemical_abuse"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#hasAge"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#AdministrationContractual"/>
     </Declaration>
     <Declaration>
@@ -571,13 +616,19 @@
         <Class IRI="#Chemist"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ConfirmedXDRTuberculosis"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Civil_Engineering"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#ConfirmedXDRTuberculosis"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSex"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#VaccinationStatus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasScreeningReason"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Negative"/>
@@ -589,10 +640,10 @@
         <Class IRI="#RHSEZ"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#City"/>
+        <Class IRI="#Death"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Death"/>
+        <Class IRI="#City"/>
     </Declaration>
     <Declaration>
         <Class IRI="#MycobacteriumBovis"/>
@@ -601,22 +652,28 @@
         <Class IRI="#Rifapentine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Pyrazinamide"/>
+        <Class IRI="#BankAgent"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#BankAgent"/>
+        <Class IRI="#Pyrazinamide"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CommercialAgent"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Breeder"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#TobaccoUser"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Breeder"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#RegimenTreatment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAssociatedWith"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ElectronicCigaretteUser"/>
@@ -640,16 +697,19 @@
         <Class IRI="#SuspectedTBCase"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#SideEffect"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#LocalName"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ContactWithTBCase"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Director"/>
+        <Class IRI="#AFBSample"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#AFBSample"/>
+        <Class IRI="#Director"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Ofloxacin"/>
@@ -667,6 +727,52 @@
         <Class IRI="#MycobacteriumKansasii"/>
     </Declaration>
     <EquivalentClasses>
+        <Class IRI="http://presence-ontology.org/ontology/Adult"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://presence-ontology.org/ontology/Person"/>
+            <DataMinCardinality cardinality="18">
+                <DataProperty IRI="#hasAge"/>
+                <Datatype abbreviatedIRI="owl:rational"/>
+            </DataMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://presence-ontology.org/ontology/Child"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://presence-ontology.org/ontology/Person"/>
+            <DataMaxCardinality cardinality="18">
+                <DataProperty IRI="#hasAge"/>
+                <Datatype abbreviatedIRI="owl:rational"/>
+            </DataMaxCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#AtRiskMDRTuberculosis"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isAssociatedWith"/>
+                <Class IRI="#TBCase"/>
+            </ObjectSomeValuesFrom>
+            <DataHasValue>
+                <DataProperty IRI="#hasHonore"/>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">f</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#AtRiskXDRTuberculosis"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isAssociatedWith"/>
+                <Class IRI="#TBCase"/>
+            </ObjectSomeValuesFrom>
+            <DataHasValue>
+                <DataProperty IRI="#hasHonore"/>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">f</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="#HE"/>
         <ObjectIntersectionOf>
             <Class IRI="#Ethambutol"/>
@@ -678,6 +784,26 @@
         <ObjectIntersectionOf>
             <Class IRI="#Isoniazid"/>
             <Class IRI="#Rifampicine"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MicroscopyNegativeTuberculosis"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#TBCase"/>
+            <DataHasValue>
+                <DataProperty IRI="#hasForm"/>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tpm-</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MicroscopyPositiveTuberculosis"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#TBCase"/>
+            <DataHasValue>
+                <DataProperty IRI="#hasForm"/>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tpm+</Literal>
+            </DataHasValue>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
@@ -1311,6 +1437,14 @@
         <Class IRI="#SignsSymptoms"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#MicroscopyNegativeTuberculosis"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_2957"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MicroscopyPositiveTuberculosis"/>
+        <Class IRI="http://purl.obolibrary.org/obo/DOID_2957"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#MotoBikeDriver"/>
         <Class IRI="#Driver"/>
     </SubClassOf>
@@ -1411,6 +1545,10 @@
         <Class IRI="#Nationality"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Overdose"/>
+        <Class IRI="#TreatmentIssue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Para-Amino_Salicylic_Acid"/>
         <Class IRI="#Drug"/>
     </SubClassOf>
@@ -1487,6 +1625,10 @@
         <Class IRI="#SignsSymptoms"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#SideEffect"/>
+        <Class IRI="#TreatmentIssue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Spacer_Drug_and_chemical_abuse"/>
         <Class IRI="#LifestyleIssues"/>
     </SubClassOf>
@@ -1561,6 +1703,10 @@
     <SubClassOf>
         <Class IRI="#Transferred_out"/>
         <Class IRI="http://presence-ontology.org/ontology/TreatmentOutcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TreatmentIssue"/>
+        <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Treatment_completed"/>
