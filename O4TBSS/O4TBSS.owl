@@ -19,31 +19,91 @@
     <Import>http://www.uy1.uninet.cm/azanzi/ontologies/2019/O4TBSS/reused/symp</Import>
     <Import>http://purl.obolibrary.org/obo/doid/releases/2018-03-02/doid.owl</Import>
     <Declaration>
+        <Class IRI="#MycobacteriumMicroti"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MycobacteriumTuberculosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Amikacin"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#3+_(many)"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Sputum"/>
+        <Class IRI="#Unemployed"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#AFBStaining"/>
+        <Class IRI="#Other"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#LatentTB"/>
+        <Class IRI="#Boilermaker"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Negative"/>
+        <Class IRI="#MycobacteriumAviumComplex"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Gastric_aspirate"/>
+        <Class IRI="#CateringService"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#LabtestingResults"/>
+        <Class IRI="#TBDiagnosisAndTreatment"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TBCase"/>
+        <Class IRI="#Lawyer"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Insurance"/>
+        <Class IRI="#Daily"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cook"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NormalImaging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Para-Amino_Salicylic_Acid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PassiveSmoking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unknown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AfterDefaultTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cultivator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inability_to_gain_weight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Not_quantified"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TextDocumentTrainingSupport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BuildingTechnician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ethionamide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carpenter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MycobacteriumCanettii"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FDG-avid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mycobacterium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HealthWorker"/>
     </Declaration>
     <Declaration>
         <Class IRI="#AfterFailureFirstTreatment"/>
@@ -52,19 +112,22 @@
         <Class IRI="#Positive"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Borderline"/>
+        <Class IRI="#Elvated_ESR"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#NewTreatment"/>
+        <Class IRI="#SuspectedMDRTuberculosis"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#InterferonGammaResult"/>
+        <Class IRI="#Butcher"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#AfterRelapseTreatment"/>
+        <Class IRI="#Businessman"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Unknown"/>
+        <Class IRI="#LifestyleIssues"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Confusion"/>
     </Declaration>
     <Declaration>
         <Class IRI="#AfterFailureReTreatment"/>
@@ -73,28 +136,502 @@
         <Class IRI="#Bronchalveolar_lavage"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Tiler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Builder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BacteriaCultureResult"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InterferonGamma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#University"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Advocate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CabloDistributor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cycloserine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4+_(TNTC)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interpreter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Customs_Declarant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MycobacteriumAfricanum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Imaging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radiographic/Imaging_findings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Streptomycin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shortness_of_breath"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2_times_per_week"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Informatician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExDrugAbuser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Secondary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TBDrugTakenFrequency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NewTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Army_agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AdministrationAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#French"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Treatment_completed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Electronician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tailor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Engineer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3_times_per_week"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HistoryActiveTB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AlcoholUse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AbstainsFromAlcohol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moxifloxacin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Primary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Productive_cough"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Night_Sweats"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consistent_with_TuberculosisImaging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgronomistEngineer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cashier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chest_pain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HealthDistrict"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InitialTreatmentPhase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unable_to_determine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spacer_Tobacco_use"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conveyor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TBCase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accounting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Constable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CabloOperator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Treatment_discontinued"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gatifloxacin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DrugAbuser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decision_Maker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comedian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExAlcoholUser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Elevated_CRP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fatigue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clinical_Cure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExAlcoholic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnatomicSource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AtRiskMDRTuberculosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indeterminate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AdultRegiment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contractor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlaceLives"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cervical_adenopathy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sputum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VideoTrainingSupport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bookbinding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Not_consistent_with_TuberculosisImaging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContinuationPhase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Isoniazid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rifampicine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decorator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AfterRelapseTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nationality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weakness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Headache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AFBStainingResult"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TaxiDriver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AtRiskXDRTuberculosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AlcoholProductUse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contractual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kanamycin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trader"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Levofloxacin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rifabutin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OngoingTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#7_days_per_week"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Training"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChildRegiment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weight_loss_without_dieting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RHE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PoliceOfficer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resourceful"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brewer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BacterialCulture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AmbulantTrader"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AFBStaining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LabtestingResults"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Porter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MotoBikeDriver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ethambutol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Treatment_interrupted"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Treatment_failure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Borderline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonTobaccoUser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MycobacteriumSpecies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InterferonGammaResult"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Driver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Capreomycin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loss_of_appetite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ImagingResult"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SuspectedXDRTuberculosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Malaise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NotAttendSchool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ndeterminate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Electrician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AdministrativeAssistant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChairOperator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1+_(rare)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Camerounian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CallBoxer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ciprofloxacin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LatentTB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gastric_aspirate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#English"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExTobaccoUser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cableur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConfirmedMDRTuberculosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alcoholic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Employee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sputum_with_blood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spacer_Drug_and_chemical_abuse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AdministrationContractual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#COMERCANT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AbnormalImaging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chemist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConfirmedXDRTuberculosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Civil_Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VaccinationStatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Negative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Baker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RHSEZ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Death"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MycobacteriumBovis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rifapentine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pyrazinamide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BankAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CommercialAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Breeder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TobaccoUser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RegimenTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElectronicCigaretteUser"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#SignsSymptoms"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Not_done"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#AFBStainingResult"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Labtesting"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#InterferonGamma"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ndeterminate"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#AfterDefaultTreatment"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HistoryActiveTB"/>
+        <Class IRI="#Hairdresser"/>
     </Declaration>
     <Declaration>
         <Class IRI="#2+_(few)"/>
@@ -103,29 +640,64 @@
         <Class IRI="#SuspectedTBCase"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#AnatomicSource"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Not_quantified"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#1+_(rare)"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OngoingTreatment"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Indeterminate"/>
+        <Class IRI="#LocalName"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ContactWithTBCase"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Director"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#AFBSample"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#4+_(TNTC)"/>
+        <Class IRI="#Ofloxacin"/>
     </Declaration>
+    <Declaration>
+        <Class IRI="#5_days_per_week"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transferred_out"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hemoptysis_(coughing_up_blood)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MycobacteriumKansasii"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#HE"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Ethambutol"/>
+            <Class IRI="#Isoniazid"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#HR"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Isoniazid"/>
+            <Class IRI="#Rifampicine"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#RHE"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Ethambutol"/>
+            <Class IRI="#Isoniazid"/>
+            <Class IRI="#Rifampicine"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#RHSEZ"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Ethambutol"/>
+            <Class IRI="#Isoniazid"/>
+            <Class IRI="#Pyrazinamide"/>
+            <Class IRI="#Rifampicine"/>
+            <Class IRI="#Streptomycin"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="http://presence-ontology.org/ontology/Emotion"/>
         <Class IRI="http://presence-ontology.org/ontology/Characteristic"/>
@@ -136,10 +708,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
-        <Class IRI="http://presence-ontology.org/ontology/Characteristic"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000145"/>
         <Class IRI="http://presence-ontology.org/ontology/Characteristic"/>
     </SubClassOf>
     <SubClassOf>
@@ -208,7 +776,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/bfo.owl#MedicalDischarge"/>
-        <Class IRI="#Insurance"/>
+        <Class IRI="http://presence-ontology.org/ontology/InsuranceType"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/bfo.owl#PatientAdmission"/>
@@ -247,6 +815,38 @@
         <Class IRI="#LabtestingResults"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#AbnormalImaging"/>
+        <Class IRI="#ImagingResult"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbstainsFromAlcohol"/>
+        <Class IRI="#AlcoholProductUse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Accounting"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AdministrationAgent"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AdministrationContractual"/>
+        <Class IRI="#Contractual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AdministrativeAssistant"/>
+        <Class IRI="#AdministrationAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AdultRegiment"/>
+        <Class IRI="#RegimenTreatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Advocate"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#AfterDefaultTreatment"/>
         <Class IRI="http://purl.obolibrary.org/obo/bfo.owl#Treatment"/>
     </SubClassOf>
@@ -263,28 +863,404 @@
         <Class IRI="http://purl.obolibrary.org/obo/bfo.owl#Treatment"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#AgronomistEngineer"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AlcoholProductUse"/>
+        <Class IRI="#LifestyleIssues"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AlcoholUse"/>
+        <Class IRI="#AlcoholProductUse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alcoholic"/>
+        <Class IRI="#AlcoholProductUse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AmbulantTrader"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Amikacin"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Army_agent"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artist"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AtRiskMDRTuberculosis"/>
+        <Class IRI="http://presence-ontology.org/ontology/Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AtRiskXDRTuberculosis"/>
+        <Class IRI="http://presence-ontology.org/ontology/Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BacteriaCultureResult"/>
+        <Class IRI="#LabtestingResults"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BacterialCulture"/>
+        <Class IRI="#Labtesting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Baker"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BankAgent"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boilermaker"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bookbinding"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Borderline"/>
         <Class IRI="#InterferonGammaResult"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breeder"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brewer"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Bronchalveolar_lavage"/>
         <Class IRI="#AFBSample"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Builder"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BuildingTechnician"/>
+        <Class IRI="#Builder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Businessman"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Butcher"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#COMERCANT"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cableur"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CabloDistributor"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CabloOperator"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CallBoxer"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Camerounian"/>
+        <Class IRI="#Nationality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capreomycin"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carpenter"/>
+        <Class IRI="#Builder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cashier"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CateringService"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cervical_adenopathy"/>
+        <Class IRI="#SignsSymptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChairOperator"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemist"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chest_pain"/>
+        <Class IRI="#SignsSymptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChildRegiment"/>
+        <Class IRI="#RegimenTreatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ciprofloxacin"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#City"/>
+        <Class IRI="#PlaceLives"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Civil_Engineering"/>
+        <Class IRI="#Builder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clinical_Cure"/>
+        <Class IRI="http://presence-ontology.org/ontology/TreatmentOutcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comedian"/>
+        <Class IRI="#Artist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CommercialAgent"/>
+        <Class IRI="#Trader"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConfirmedMDRTuberculosis"/>
+        <Class IRI="http://presence-ontology.org/ontology/Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConfirmedXDRTuberculosis"/>
+        <Class IRI="http://presence-ontology.org/ontology/Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Confusion"/>
+        <Class IRI="#SignsSymptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Consistent_with_TuberculosisImaging"/>
+        <Class IRI="#AbnormalImaging"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Constable"/>
+        <Class IRI="#Army_agent"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#ContactWithTBCase"/>
         <Class IRI="http://presence-ontology.org/ontology/Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContinuationPhase"/>
+        <Class IRI="#RegimenTreatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contractor"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contractual"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conveyor"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cook"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cultivator"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cure"/>
+        <Class IRI="http://presence-ontology.org/ontology/TreatmentOutcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Customs_Declarant"/>
+        <Class IRI="#AdministrationAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cycloserine"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Daily"/>
+        <Class IRI="#TBDrugTakenFrequency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Death"/>
+        <Class IRI="http://presence-ontology.org/ontology/TreatmentOutcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decision_Maker"/>
+        <Class IRI="#AdministrationAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decorator"/>
+        <Class IRI="#AdministrationAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Director"/>
+        <Class IRI="#AdministrationAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Driver"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drug"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DrugAbuser"/>
+        <Class IRI="#Spacer_Drug_and_chemical_abuse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electrician"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectronicCigaretteUser"/>
+        <Class IRI="#Spacer_Tobacco_use"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electronician"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Elevated_CRP"/>
+        <Class IRI="#SignsSymptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Elvated_ESR"/>
+        <Class IRI="#SignsSymptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Employee"/>
+        <Class IRI="http://presence-ontology.org/ontology/EmploymentStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Engineer"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#English"/>
+        <Class IRI="http://presence-ontology.org/ontology/LanguagePreference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ethambutol"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ethionamide"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExAlcoholUser"/>
+        <Class IRI="#AlcoholProductUse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExAlcoholic"/>
+        <Class IRI="#AlcoholProductUse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExDrugAbuser"/>
+        <Class IRI="#Spacer_Drug_and_chemical_abuse"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExTobaccoUser"/>
+        <Class IRI="#Spacer_Tobacco_use"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FDG-avid"/>
+        <Class IRI="#ImagingResult"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fatigue"/>
+        <Class IRI="#SignsSymptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#French"/>
+        <Class IRI="http://presence-ontology.org/ontology/LanguagePreference"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Gastric_aspirate"/>
         <Class IRI="#AFBSample"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Gatifloxacin"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HE"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HR"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hairdresser"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Headache"/>
+        <Class IRI="#SignsSymptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthDistrict"/>
+        <Class IRI="http://purl.obolibrary.org/obo/bfo.owl#Institution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthWorker"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#HistoryActiveTB"/>
         <Class IRI="http://presence-ontology.org/ontology/Patient"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Imaging"/>
+        <Class IRI="#Labtesting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImagingResult"/>
+        <Class IRI="#LabtestingResults"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inability_to_gain_weight"/>
+        <Class IRI="#SignsSymptoms"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Indeterminate"/>
         <Class IRI="#InterferonGammaResult"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Informatician"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InitialTreatmentPhase"/>
+        <Class IRI="#RegimenTreatment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#InterferonGamma"/>
@@ -295,8 +1271,92 @@
         <Class IRI="#LabtestingResults"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Interpreter"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Isoniazid"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kanamycin"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#LatentTB"/>
         <Class IRI="http://presence-ontology.org/ontology/Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lawyer"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Levofloxacin"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LifestyleIssues"/>
+        <Class IRI="http://presence-ontology.org/ontology/Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LocalName"/>
+        <Class IRI="#PlaceLives"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Loss_of_appetite"/>
+        <Class IRI="#SignsSymptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malaise"/>
+        <Class IRI="#SignsSymptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MotoBikeDriver"/>
+        <Class IRI="#Driver"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moxifloxacin"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mycobacterium"/>
+        <Class IRI="#MycobacteriumSpecies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MycobacteriumAfricanum"/>
+        <Class IRI="#MycobacteriumSpecies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MycobacteriumAviumComplex"/>
+        <Class IRI="#MycobacteriumSpecies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MycobacteriumBovis"/>
+        <Class IRI="#MycobacteriumSpecies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MycobacteriumCanettii"/>
+        <Class IRI="#MycobacteriumSpecies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MycobacteriumKansasii"/>
+        <Class IRI="#MycobacteriumSpecies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MycobacteriumMicroti"/>
+        <Class IRI="#MycobacteriumSpecies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MycobacteriumSpecies"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MycobacteriumTuberculosis"/>
+        <Class IRI="#MycobacteriumSpecies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nationality"/>
+        <Class IRI="http://presence-ontology.org/ontology/Characteristic"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Negative"/>
@@ -309,6 +1369,26 @@
     <SubClassOf>
         <Class IRI="#NewTreatment"/>
         <Class IRI="http://purl.obolibrary.org/obo/bfo.owl#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Night_Sweats"/>
+        <Class IRI="#SignsSymptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonTobaccoUser"/>
+        <Class IRI="#Spacer_Tobacco_use"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NormalImaging"/>
+        <Class IRI="#ImagingResult"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NotAttendSchool"/>
+        <Class IRI="http://presence-ontology.org/ontology/EducationStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Not_consistent_with_TuberculosisImaging"/>
+        <Class IRI="#AbnormalImaging"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Not_done"/>
@@ -319,19 +1399,123 @@
         <Class IRI="#AFBStainingResult"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Ofloxacin"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OngoingTreatment"/>
         <Class IRI="http://purl.obolibrary.org/obo/bfo.owl#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Other"/>
+        <Class IRI="#Nationality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Para-Amino_Salicylic_Acid"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PassiveSmoking"/>
+        <Class IRI="#Spacer_Tobacco_use"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlaceLives"/>
+        <Class IRI="http://presence-ontology.org/ontology/Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PoliceOfficer"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Porter"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Positive"/>
         <Class IRI="#InterferonGammaResult"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Primary"/>
+        <Class IRI="http://presence-ontology.org/ontology/EducationStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Productive_cough"/>
+        <Class IRI="#SignsSymptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pyrazinamide"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quater"/>
+        <Class IRI="#PlaceLives"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RHE"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RHSEZ"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RegimenTreatment"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resourceful"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rifabutin"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rifampicine"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rifapentine"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Secondary"/>
+        <Class IRI="http://presence-ontology.org/ontology/EducationStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shortness_of_breath"/>
+        <Class IRI="#SignsSymptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spacer_Drug_and_chemical_abuse"/>
+        <Class IRI="#LifestyleIssues"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spacer_Tobacco_use"/>
+        <Class IRI="#LifestyleIssues"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Sputum"/>
         <Class IRI="#AFBSample"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Sputum_with_blood"/>
+        <Class IRI="#SignsSymptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Streptomycin"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SuspectedMDRTuberculosis"/>
+        <Class IRI="http://presence-ontology.org/ontology/Patient"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#SuspectedTBCase"/>
+        <Class IRI="http://presence-ontology.org/ontology/Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SuspectedXDRTuberculosis"/>
         <Class IRI="http://presence-ontology.org/ontology/Patient"/>
     </SubClassOf>
     <SubClassOf>
@@ -339,8 +1523,92 @@
         <Class IRI="http://presence-ontology.org/ontology/Patient"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#TBDiagnosisAndTreatment"/>
+        <Class IRI="http://purl.obolibrary.org/obo/bfo.owl#Institution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TBDrugTakenFrequency"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tailor"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TaxiDriver"/>
+        <Class IRI="#Driver"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TextDocumentTrainingSupport"/>
+        <Class IRI="#Training"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tiler"/>
+        <Class IRI="#Builder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TobaccoUser"/>
+        <Class IRI="#LifestyleIssues"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trader"/>
+        <Class IRI="http://presence-ontology.org/ontology/OccupationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Training"/>
+        <Class IRI="http://purl.obolibrary.org/obo/bfo.owl#InformationObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transferred_out"/>
+        <Class IRI="http://presence-ontology.org/ontology/TreatmentOutcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Treatment_completed"/>
+        <Class IRI="http://presence-ontology.org/ontology/TreatmentOutcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Treatment_discontinued"/>
+        <Class IRI="http://presence-ontology.org/ontology/TreatmentOutcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Treatment_failure"/>
+        <Class IRI="http://presence-ontology.org/ontology/TreatmentOutcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Treatment_interrupted"/>
+        <Class IRI="http://presence-ontology.org/ontology/TreatmentOutcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unable_to_determine"/>
+        <Class IRI="#ImagingResult"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unemployed"/>
+        <Class IRI="http://presence-ontology.org/ontology/EmploymentStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#University"/>
+        <Class IRI="http://presence-ontology.org/ontology/EducationStatus"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Unknown"/>
         <Class IRI="#InterferonGammaResult"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VaccinationStatus"/>
+        <Class IRI="http://presence-ontology.org/ontology/Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VideoTrainingSupport"/>
+        <Class IRI="#Training"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weakness"/>
+        <Class IRI="#SignsSymptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weight_loss_without_dieting"/>
+        <Class IRI="#SignsSymptoms"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ndeterminate"/>
@@ -351,8 +1619,16 @@
         <Class IRI="#AFBStainingResult"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#2_times_per_week"/>
+        <Class IRI="#Daily"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#2+_(few)"/>
         <Class IRI="#AFBStainingResult"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3_times_per_week"/>
+        <Class IRI="#Daily"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#3+_(many)"/>
@@ -362,14 +1638,22 @@
         <Class IRI="#4+_(TNTC)"/>
         <Class IRI="#AFBStainingResult"/>
     </SubClassOf>
-    <DisjointClasses>
-        <Class IRI="#AfterDefaultTreatment"/>
-        <Class IRI="#AfterFailureFirstTreatment"/>
-        <Class IRI="#AfterFailureReTreatment"/>
-        <Class IRI="#AfterRelapseTreatment"/>
-        <Class IRI="#NewTreatment"/>
-        <Class IRI="#OngoingTreatment"/>
-    </DisjointClasses>
+    <SubClassOf>
+        <Class IRI="#5_days_per_week"/>
+        <Class IRI="#Daily"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#7_days_per_week"/>
+        <Class IRI="#Daily"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hemoptysis_(coughing_up_blood)"/>
+        <Class IRI="#SignsSymptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radiographic/Imaging_findings"/>
+        <Class IRI="#SignsSymptoms"/>
+    </SubClassOf>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/bfo.owl#analyzesPatient"/>
         <Class IRI="http://presence-ontology.org/ontology/Patient"/>
